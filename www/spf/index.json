@@ -17,9 +17,9 @@
                 </h1>
                 <div class='buttons'>
                   <a href='join' class=
-                  'btn btn-primary custom-button red-btn'>Join the
+                  'spf-link btn btn-primary custom-button red-btn'>Join the
                   team</a><a href='mentor' class=
-                  'btn btn-primary custom-button green-btn'>Become a mentor</a>
+                  'spf-link btn btn-primary custom-button green-btn'>Become a mentor</a>
                 </div>
               </div>
             </div><!-- .header-content-wrap -->
