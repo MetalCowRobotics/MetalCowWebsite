@@ -2,10 +2,10 @@ AddType application/json .json
 RewriteEngine On    # Turn on the rewriting engine
 
 RewriteCond %{QUERY_STRING}    spf=navigate 
-RewriteRule   ^$    index.json?  [NC,L]
+RewriteRule   ^$    spf/index.json?    [NC,L]    #rewrite URLs
 
 RewriteCond %{QUERY_STRING}    spf=navigate 
-RewriteRule   ^(.+)$  $1.json?     [NC,L]  #rewrite URLs
+RewriteRule   ^(.+)$    spf/$1.json?    [NC,L]    #rewrite URLs
 
 RewriteRule    ^mentor/?$    mentor.html    [NC,L]    # rewrite URLs
 RewriteRule    ^join/?$    join.html    [NC,L]    # rewrite URLs
