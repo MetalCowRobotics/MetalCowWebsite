@@ -2,8 +2,17 @@
   "title": "MetalCow Robotics | Part Sport, Part Technology -100% Awesome!",
   "head":" <style type='text/css'>.header-content-wrap{padding-top: 210px !important;}</style>",
   "attr": {
-	  "body" : {
+	  "page-body" : {
 		  "class" : "home blog custom-background group-blog"
+	  },
+	  "join-button" : {
+	      "class" : "menu-item menu-item-type-post_type menu-item-object-page"
+	  },
+	  "mentor-button" : {
+	      "class" : "menu-item menu-item-type-post_type menu-item-object-page"
+	  },
+	  "sponsor-button" : {
+	      "class" : "menu-item menu-item-type-post_type menu-item-object-page"
 	  }
   },
   "body": {
