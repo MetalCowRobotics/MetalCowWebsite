@@ -927,7 +927,7 @@ a:active {
 	right: 0;
 	padding: 0;
 	margin: 0;
-	background: url(https://sites.google.com/site/fancyimagehosting/images/search_icon.png) no-repeat center center;
+	background: url(img/search_icon.png) no-repeat center center;
 	text-indent: -9999999px;
 }
 .widget_search label{
@@ -1393,7 +1393,7 @@ object {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	background-image: url(https://sites.google.com/site/fancyimagehosting/images/loading.gif);
+	background-image: url(img/loading.gif);
 	background-repeat: no-repeat;
 	background-position: center;
 	margin: -100px 0 0 -100px;
@@ -1776,14 +1776,14 @@ ul.nav > li.current_page_item.current > a:before {
 }
 #carousel-homepage-latestnews .glyphicon-chevron-left:before{
 	content: "";
-	background: url(https://sites.google.com/site/fancyimagehosting/images/left-arrow.png) no-repeat center center;
+	background: url(img/left-arrow.png) no-repeat center center;
 	width: 30px;
 	height: 30px;
 	float: left;
 }
 #carousel-homepage-latestnews .glyphicon-chevron-right:before{
 	content: "";
-	background: url(https://sites.google.com/site/fancyimagehosting/images/right-arrow.png) no-repeat center center;	
+	background: url(img/right-arrow.png) no-repeat center center;	
 	width: 30px;
 	height: 30px;
 	float: left;
@@ -1875,7 +1875,7 @@ ul.nav > li.current_page_item.current > a:before {
 }
 /*----OTHER FOCUSES ----*/
 .other-focuses {
-	background: url(https://sites.google.com/site/fancyimagehosting/images/lines.png) repeat-x center;
+	background: url(img/lines.png) repeat-x center;
 	margin-bottom: 25px;
 }
 .other-focuses .section-footer-title {
@@ -2178,7 +2178,7 @@ width: -webkit-calc(100% / 4);
 	display: none;
 }
 #loader .loader-icon {
-	background: url(https://sites.google.com/site/fancyimagehosting/images/loading.gif) no-repeat center center;
+	background: url(img/loading.gif) no-repeat center center;
 	background-color: #FFF;
 	margin: -22px -22px;
 	top: 50%;
@@ -2266,7 +2266,7 @@ width: -webkit-calc(100% / 4);
 }
 /*--OUR CLIENTS --*/
 .our-clients {
-	background: url(https://sites.google.com/site/fancyimagehosting/images/lines-dark.png) repeat-x center;
+	background: url(img/lines-dark.png) repeat-x center;
 	margin-bottom: 40px;
     float: left;
     width: 100%;
@@ -3500,7 +3500,7 @@ article .posted-on a:hover{
 	text-indent: 99999px;
 	position: relative;
 	overflow: hidden;
-	background: url(https://sites.google.com/site/fancyimagehosting/images/woostars.png);
+	background: url(img/woostars.png);
 	background-repeat: no-repeat;
 	background-position: top left;
 	margin: 0 auto;
@@ -3511,7 +3511,7 @@ article .posted-on a:hover{
 	left: 0;
 	width: 100px;
 	height: 20px;
-	background: url(https://sites.google.com/site/fancyimagehosting/images/woostars.png);
+	background: url(img/woostars.png);
 	background-repeat: no-repeat;
 	background-position: bottom left;
 	overflow: hidden;
@@ -3728,10 +3728,10 @@ article .posted-on a:hover{
 	float: right;
 	width: 100px;
 	height: 20px;
-	background: url(https://sites.google.com/site/fancyimagehosting/images/woostars.png) repeat-x left bottom;
+	background: url(img/woostars.png) repeat-x left bottom;
 } 
 .woocommerce-page .product .comment-form .star-rating span{
-	background: url(https://sites.google.com/site/fancyimagehosting/images/woostars.png) repeat-x left top;
+	background: url(img/woostars.png) repeat-x left top;
 	height: 0;
 	padding-top: 16px;
 	overflow: hidden;
@@ -3775,7 +3775,7 @@ article .posted-on a:hover{
 	height: 20px;
 	position: relative;
 	float: left;
-	background: url(https://sites.google.com/site/fancyimagehosting/images/woostars.png) repeat-x left 0;
+	background: url(img/woostars.png) repeat-x left 0;
 	margin-left: 10px;
 } 
 .woocommerce-page .product .comment-form p.stars span a {
@@ -3790,14 +3790,14 @@ article .posted-on a:hover{
 } 
 .woocommerce-page .product .comment-form p.stars span a:hover,
 .woocommerce-page .product .comment-form p.stars span a:focus{
-	background: url(https://sites.google.com/site/fancyimagehosting/images/woostars.png) repeat-x left bottom;
+	background: url(img/woostars.png) repeat-x left bottom;
 	-webkit-transition: initial;
 	-moz-transition: initial;
 	-o-transition: initial;
 	transition: initial;
 } 
 .woocommerce-page .product .comment-form p.stars span a.active {
-	background: url(https://sites.google.com/site/fancyimagehosting/images/woostars.png) repeat-x left bottom ;
+	background: url(img/woostars.png) repeat-x left bottom ;
 } 
 .woocommerce-page .product .comment-form p.stars span a.star-1 {
 	width: 20px;
@@ -3875,7 +3875,7 @@ article .posted-on a:hover{
 	text-indent: 99999px;
 	position: relative;
 	overflow: hidden;
-	background: url(https://sites.google.com/site/fancyimagehosting/images/woostars.png);
+	background: url(img/woostars.png);
 	background-repeat: no-repeat;
 	background-position: top left;
 }
@@ -3885,7 +3885,7 @@ article .posted-on a:hover{
 	left: 0;
 	width: 100px;
 	height: 20px;
-	background: url(https://sites.google.com/site/fancyimagehosting/images/woostars.png);
+	background: url(img/woostars.png);
 	background-repeat: no-repeat;
 	background-position: bottom left;
 	overflow: hidden;
@@ -3903,7 +3903,7 @@ article .posted-on a:hover{
 	text-indent: 99999px;
 	position: relative;
 	overflow: hidden;
-	background: url(https://sites.google.com/site/fancyimagehosting/images/woostars.png);
+	background: url(img/woostars.png);
 	background-repeat: no-repeat;
 	background-position: top left;
 }
@@ -3913,7 +3913,7 @@ article .posted-on a:hover{
 	left: 0;
 	width: 100px;
 	height: 20px;
-	background: url(https://sites.google.com/site/fancyimagehosting/images/woostars.png);
+	background: url(img/woostars.png);
 	background-repeat: no-repeat;
 	background-position: bottom left;
 	overflow: hidden;
@@ -5932,7 +5932,7 @@ body.custom-background {
 		margin: 0;
 		padding: 0;
 		border-radius: 3px;
-		background: url(https://sites.google.com/site/fancyimagehosting/images/menu-icon.png) center center no-repeat #e96656;
+		background: url(img/menu-icon.png) center center no-repeat #e96656;
 	}
 	.navbar-inverse .navbar-nav ul.sub-menu li{
 		margin-right: 0;
