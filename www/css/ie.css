@@ -265,11 +265,11 @@
 	}
 	.cbp-rfgrid li a .project-info {
 		display: none;
-		background: url(../images/tr-black-1px.png) !important;
+		background: url(../images/tr-black-1px.jpg) !important;
 	}
 	.cbp-rfgrid li a:hover .project-info {
 		display: block;
-		background: url(../images/tr-black-1px.png) !important;
+		background: url(../images/tr-black-1px.jpg) !important;
 	}
 	#main-nav {
 		position: absolute !important;
