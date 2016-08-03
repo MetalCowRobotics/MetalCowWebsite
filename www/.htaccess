@@ -11,3 +11,4 @@ RewriteRule    ^mentor/?$    mentor.html    [NC,L]    # rewrite URLs
 RewriteRule    ^join/?$    join.html    [NC,L]    # rewrite URLs
 RewriteRule    ^sponsor/?$    sponsor.html    [NC,L]    # rewrite URLs
 RewriteRule    ^robots/?$    robots.html    [NC,L]    # rewrite URLs
+RewriteRule    ^sponsoring-details/?$    sponsor-details.html    [NC,L]    # rewrite URLs
