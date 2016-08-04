@@ -1,6 +1,0 @@
-#!/bin/sh
-cd www
-for i in *.html; do
-    doc=$(../.deps/xidel "$i" -e '<div id='content'>{.}</div>' --printed-node-format=html | sed '1d; $d' | tr '\n' ' ' | tr -s ' ' | tr -d '\n\t') && ../.deps/jq --arg new "$doc" '.body.content=$new' "spf/${i%.*}.json" > tmp.$$.json && mv -f tmp.$$.json spf/${i%.*}.json 
-done
-
