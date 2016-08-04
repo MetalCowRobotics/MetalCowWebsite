@@ -1,0 +1,5 @@
+#!/bin/sh
+for i in *.html; do
+    doc=$(xidel "$i" -e '<div id='content'>{.}</div>' --printed-node-format=html | sed '1d; $d' | sed -e "s/^[ \t]*//g" -e ":a;N;$bash;s/\n//g" | tr -d '\n\t') && jq --arg new "$doc" '.body.content=$new' "spf/${i%.*}.json" > tmp.$$.json && mv -f tmp.$$.json spf/${i%.*}.json 
+done
+
