@@ -13,8 +13,9 @@ RewriteRule    ^join/?$    join.html    [NC,L]    # rewrite URLs
 RewriteRule    ^sponsor/?$    sponsor.html    [NC,L]    # rewrite URLs
 RewriteRule    ^robots/?$    robots.html    [NC,L]    # rewrite URLs
 RewriteRule    ^sponsoring-details/?$    sponsoring-details.html    [NC,L]    # rewrite URLs
-RewriteRule    ^interest/?$    interest.html    [NC,L]    # rewrite URLs
-Redirect "/interest" "https://goo.gl/forms/jnOgYKriL9W3EWe12"
+
+Redirect "/interest*" "https://goo.gl/forms/jnOgYKriL9W3EWe12"
+
 
 
 
