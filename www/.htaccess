@@ -14,8 +14,7 @@ RewriteRule    ^sponsor/?$    sponsor.html    [NC,L]    # rewrite URLs
 RewriteRule    ^robots/?$    robots.html    [NC,L]    # rewrite URLs
 RewriteRule    ^sponsoring-details/?$    sponsoring-details.html    [NC,L]    # rewrite URLs
 
-Redirect "interest.html" "https://docs.google.com/forms/d/e/1FAIpQLSeZC0DhIainYLdKefQr6MjZOrn93Jr6Zo0P09hwerVrpQgL5Q/viewform?c=0&w=1"
-#https://goo.gl/forms/jnOgYKriL9W3EWe12
+Redirect /interest* http://www.google.com #https://goo.gl/forms/jnOgYKriL9W3EWe12
 
 
 
