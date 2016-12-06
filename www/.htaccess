@@ -15,7 +15,7 @@ RewriteRule    ^robots/?$    robots.html    [NC,L]    # rewrite URLs
 RewriteRule    ^sponsoring-details/?$    sponsoring-details.html    [NC,L]    # rewrite URLs
 
 Redirect "/interest/" "http://www.google.com #https://goo.gl/forms/jnOgYKriL9W3EWe12"
-
+Redirect 301 /oldpage.html http://www.google.com
 
 
 
