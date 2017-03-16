@@ -13,7 +13,7 @@ RewriteRule    ^join/?$    join.html    [NC,L]    # rewrite URLs
 RewriteRule    ^sponsor/?$    sponsor.html    [NC,L]    # rewrite URLs
 RewriteRule    ^robots/?$    robots.html    [NC,L]    # rewrite URLs
 RewriteRule    ^sponsoring-details/?$    sponsoring-details.html    [NC,L]    # rewrite URLs
-
+RewriteRule    ^/video/chairmans2017/?$ https://youtu.be/28CTq6Mhg_Y [NC,L] #Youtube link to 2017 Chairmans
 
 
 
