@@ -41,20 +41,24 @@
 
         <?php
           #remove the directory path we don't want
-          //$request  = str_replace("/envato/pretty/php/", "", $_SERVER['REQUEST_URI']);
+          $request  = $_SERVER['REQUEST_URI'];
 
           #split the path by '/'
           $params = split("/", $request);
 
-          echo $request; + " <br />" + $params[0];
-          
-          //Page routing goes here, should be based on the URL Params
-          if($params[0]=="" || $params[0]=="home" ){
+
+
+
+          #keeps users from requesting any file they want
+          $safe_pages = array("users", "search", "thread");
+
+          if(empty($params)){
             include_once("home.php");
-          }elseif($params[0]=="join"){
-            include_once("join.php");
+          }elseif(in_array($params[0], $safe_pages)) {
+            include_once($params[0].".php");
+          } else {
+            //include("404.php");
           }
-          echo $params[0];
 
         ?>
 
