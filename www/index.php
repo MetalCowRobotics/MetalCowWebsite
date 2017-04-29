@@ -44,7 +44,7 @@
           $request  = $_SERVER['REQUEST_URI'];
 
           #split the path by '/'
-          $params = split("/", $request);
+          $params = explode("/", $request);
 
 
 
