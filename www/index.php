@@ -47,7 +47,7 @@
           $params     = split("/", $request);
 
           //Page routing goes here, should be based on the URL Params
-          if($params[0]=="" || $params[0]=="home" ){}
+          if($params[0]=="" || $params[0]=="home" ){
             include_once("home.php");
           }elseif($params[0]=="join"){
             include_once("join.php");
