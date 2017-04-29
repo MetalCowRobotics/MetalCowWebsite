@@ -10,10 +10,7 @@
 <link rel="stylesheet" href="css/ie.css" type="text/css">
 <![endif]-->
 
-
-    <title>
-      MetalCow Robotics | Part Sport, Part Technology - 100% Awesome!
-    </title>
+    <?php include_once("title.php"); ?>
 
     <style type="text/css">
 		.footer-widget {
@@ -56,16 +53,32 @@
     <link rel="apple-touch-icon-precomposed" href="img/cropped-logo4-180x180.png">
     <meta name="msapplication-TileImage" content="img/cropped-logo4-270x270.png">
   </head>
+  <body id="page-body" class="home blog custom-background group-blog">
+    <div id="mobilebgfix">
+      <div class="mobile-bg-fix-img-wrap">
+        <div class="mobile-bg-fix-img"></div>
+      </div>
+      <div class="mobile-bg-fix-whole-site">
 
-  <?php
-  //Page routing goes here, should be based on the URL Params
+        <?php
+
+        include_once("header.php");
+
+        //Page routing goes here, should be based on the URL Params
+        include_once("home.php");
 
 
-
-  include_once("home.php");
-
+        ?>
 
 
-  ?>
+<?php
+include_once("footer.php");
+include_once("footerJavaScripts.php");
+include_once("googleAnalytics.php");
 
+?>
+
+    </div><!-- mobile-bg-fix-whole-site -->
+  </div><!-- .mobile-bg-fix-wrap -->
+  </body>
 </html>

@@ -1,39 +1,3 @@
-<body id="page-body" class="home blog custom-background group-blog">
-  <div id="mobilebgfix">
-    <div class="mobile-bg-fix-img-wrap">
-      <div class="mobile-bg-fix-img"></div>
-    </div>
-    <div class="mobile-bg-fix-whole-site">
-      <header id="home" class="header">
-        <div id="main-nav" class="navbar navbar-inverse bs-docs-nav" role="banner">
-          <div class="container">
-            <div class="navbar-header responsive-logo">
-                <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                </button>
-                <a href="/" class="navbar-brand">
-                  <img src="img/metalcowLogo_wordmark.png" alt="MetalCow Robotics"></a>
-          </div>
-            <nav class="navbar-collapse bs-navbar-collapse collapse" id="site-navigation">
-              <a class="screen-reader-text skip-link" href="#content">Skip to content</a>
-              <ul id="menu-top" class="nav navbar-nav navbar-right responsive-nav main-nav-list">
-                <li id="join-button" class="menu-item menu-item-type-post_type menu-item-object-page join-button">
-                  <a href="join">Join</a>
-                </li>
-                <li id="mentor-button" class="menu-item menu-item-type-post_type menu-item-object-page mentor-button">
-                  <a href="mentor">Mentor</a>
-                </li>
-                <li id="sponsor-button" class="menu-item menu-item-type-post_type menu-item-object-page sponsor-button">
-                  <a href="sponsor">Sponsor</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div><!-- / END TOP BAR -->
-      </header><!-- / END HOME SECTION  -->
       <div id="content" class="site-content">
         <div class="home-header-wrap">
           <div class="header-content-wrap">
@@ -389,23 +353,3 @@
       </footer><!-- / END FOOOTER  -->
     </div><!-- mobile-bg-fix-whole-site -->
   </div><!-- .mobile-bg-fix-wrap -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
-  <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?ver=4.3.1"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Knob/1.2.0/jquery.knob.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
-  <script type='text/javascript' src="js/scrollReveal.js"></script>
-  <script type='text/javascript' src="js/zerif.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/spf/2.4.0/spf.js"></script>
-
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-41013796-1', 'auto');
-    ga('send', 'pageview');
-</script>
-</body>
