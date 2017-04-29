@@ -12,31 +12,6 @@
 
     <?php include_once("title.php"); ?>
 
-    <style type="text/css">
-		.footer-widget {
-            float: none;
-            display: inline-block;
-            vertical-align: top;
-            width: 100%;
-        }
-        .footer-widget img{
-        	/*width:75px;*/
-            padding-top:25px;
-            padding-left:10px;
-            padding-right:10px;
-        }
-		body.custom-background {
-			background-image: url('img/background-20160504-a.jpg');
-			background-repeat: no-repeat;
-			background-position: top left;
-			background-attachment: scroll;
-	  	}
-
-		.header-content-wrap {
-			padding-top: 210px !important;
-		}
-    </style>
-
     <!--<link rel='stylesheet' id='zerif_font-css' href=
     '//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C400italic%7CMontserrat%3A700%7CHomemade+Apple&amp;subset=latin%2Clatin-ext'
     type='text/css' media='all'>
@@ -48,6 +23,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel='stylesheet' id='zerif_style-css' href='css/style.css' type='text/css' media='all'>
     <link rel='stylesheet' id='zerif_responsive_style-css' href='css/responsive.css' type='text/css' media='all'>
+    <link rel='stylesheet' id='mtlcw_stle-css' href='css/mtlcw_style.css' type='text/css' media='all'>
+
     <link rel="icon" href="img/cropped-logo4-32x32.png" sizes="32x32">
     <link rel="icon" href="img/cropped-logo4-192x192.png" sizes="192x192">
     <link rel="apple-touch-icon-precomposed" href="img/cropped-logo4-180x180.png">
