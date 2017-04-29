@@ -57,16 +57,15 @@
     <meta name="msapplication-TileImage" content="img/cropped-logo4-270x270.png">
   </head>
 
-
   <?php
   //Page routing goes here, should be based on the URL Params
 
 
 
-  include_once("home.html");
+  include_once("home.php");
 
 
 
   ?>
-
+Test New Parser: v1.0
 </html>
