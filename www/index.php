@@ -44,7 +44,7 @@
           //$request  = str_replace("/envato/pretty/php/", "", $_SERVER['REQUEST_URI']);
 
           #split the path by '/'
-          $params     = split("/", $request);
+          $params = split("/", $request);
 
           //Page routing goes here, should be based on the URL Params
           if($params[0]=="" || $params[0]=="home" ){
@@ -52,6 +52,7 @@
           }elseif($params[0]=="join"){
             include_once("join.php");
           }
+          echo params[0];
 
         ?>
 
