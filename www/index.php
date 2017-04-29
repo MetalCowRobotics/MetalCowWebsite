@@ -36,17 +36,24 @@
         <div class="mobile-bg-fix-img"></div>
       </div>
       <div class="mobile-bg-fix-whole-site">
+<?php include_once("header.php"); ?>
+
 
         <?php
+          #remove the directory path we don't want
+          //$request  = str_replace("/envato/pretty/php/", "", $_SERVER['REQUEST_URI']);
 
-        include_once("header.php");
+          #split the path by '/'
+          $params     = split("/", $request);
 
-        //Page routing goes here, should be based on the URL Params
-        include_once("home.php");
-
+          //Page routing goes here, should be based on the URL Params
+          if($params[0]=="" || $params[0]=="home" ){}
+            include_once("home.php");
+          }elseif($params[0]=="join"){
+            include_once("join.php");
+          }
 
         ?>
-
 
 <?php
 include_once("footer.php");
