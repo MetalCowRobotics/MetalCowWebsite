@@ -46,13 +46,15 @@
           #split the path by '/'
           $params = split("/", $request);
 
+          echo $request; + " <br />" + $params[0];
+          
           //Page routing goes here, should be based on the URL Params
           if($params[0]=="" || $params[0]=="home" ){
             include_once("home.php");
           }elseif($params[0]=="join"){
             include_once("join.php");
           }
-          echo params[0];
+          echo $params[0];
 
         ?>
 
