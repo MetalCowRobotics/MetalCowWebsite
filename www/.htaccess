@@ -1,24 +1,15 @@
 #AddType application/json .json
 RewriteEngine On    # Turn on the rewriting engine
 
+#static redirects
 RedirectMatch 301 /video/chairmans2017(.*) https://youtu.be/28CTq6Mhg_Y/$1
 RedirectMatch 301 /summercamp2017 https://goo.gl/forms/PbkqjHWnyX2Rh2832
 RedirectMatch 301 /SummerCamp2017 https://goo.gl/forms/PbkqjHWnyX2Rh2832
 
+#page rewrites
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteRule ^.*$ ./index.php
-
-
-#RewriteRule    ^mentor   mentor.html    [NC,L]    # rewrite URLs
-#RewriteRule    ^join    join.html    [NC,L]    # rewrite URLs
-#RewriteRule    ^sponsor    sponsor.html    [NC,L]    # rewrite URLs
-#RewriteRule    ^robots  robots.html    [NC,L]    # rewrite URLs
-#RewriteRule    ^sponsoring-details   sponsoring-details.html    [NC,L]    # rewrite URLs
-
-
-
-
 
 
 

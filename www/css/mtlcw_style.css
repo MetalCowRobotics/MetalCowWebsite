@@ -11,7 +11,7 @@
         padding-right:10px;
     }
 body.custom-background {
-  background-image: url('img/background-20160504-a.jpg');
+  background-image: url('../img/background-20160504-a.jpg');
   background-repeat: no-repeat;
   background-position: top left;
   background-attachment: scroll;
