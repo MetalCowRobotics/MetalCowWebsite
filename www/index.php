@@ -51,7 +51,7 @@
 
 echo "Request:".$request." + ParamsCount: ".count($params)." +Params: ".$params[1];
 
-          if(empty($params)){
+          if(empty($params) || $params[1]==""){
             include_once("home.php");
           }elseif(in_array($params[1], $safe_pages)) {
             include_once($params[1].".php");
