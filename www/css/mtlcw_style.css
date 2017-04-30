@@ -1,0 +1,22 @@
+.footer-widget {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+    }
+    .footer-widget img{
+      /*width:75px;*/
+        padding-top:25px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+body.custom-background {
+  background-image: url('../img/background-20160504-a.jpg');
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-attachment: scroll;
+  }
+
+.header-content-wrap {
+  padding-top: 210px !important;
+}
