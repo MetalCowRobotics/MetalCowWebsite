@@ -1,3 +1,28 @@
+<?php
+  #keeps users from requesting any file they want
+  $safe_pages = array("home", "join", "mentor", "sponsor", "robots");
+
+  #remove the directory path we don't want
+  $request  = $_SERVER['REQUEST_URI'];
+
+  #split the path by '/'
+  $params = explode("/", $request);
+
+  #handle the page filtering for safe pages
+  if(empty($params)){
+    $page="home";
+  }elseif(!in_array($page, $safe_pages)){
+    //$page="404";
+    $page="home";
+  }else{
+    $page = $params[1];
+  }
+
+
+
+  ?>
+
+
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
@@ -30,7 +55,15 @@
     <link rel="apple-touch-icon-precomposed" href="img/cropped-logo4-180x180.png">
     <meta name="msapplication-TileImage" content="img/cropped-logo4-270x270.png">
   </head>
-  <body id="page-body" class="home blog custom-background group-blog">
+  <body id="page-body"
+
+  <? if ($page=="home"): ?>
+    class="home blog custom-background group-blog"
+  <? else: ?>
+    class="page page-template page-template-template-fullwidth-no-title page-template-template-fullwidth-no-title-php group-blog"
+  <? endif; ?>
+
+  >
     <div id="mobilebgfix">
       <div class="mobile-bg-fix-img-wrap">
         <div class="mobile-bg-fix-img"></div>
@@ -38,29 +71,10 @@
       <div class="mobile-bg-fix-whole-site">
 <?php include_once("header.php"); ?>
 
-
-        <?php
-          #remove the directory path we don't want
-          $request  = $_SERVER['REQUEST_URI'];
-
-          #split the path by '/'
-          $params = explode("/", $request);
-
-          #keeps users from requesting any file they want
-          $safe_pages = array("home", "join", "mentor", "sponsor", "robots");
-
-
-//echo "Request:".$request." + ParamsCount: ".count($params)." +Params: ".$params[1];
-          if(empty($params) || $params[1]==""){
-            include_once("home.php");
-          }elseif(in_array($params[1], $safe_pages)) {
-            include_once($params[1].".php");
-          } else {
-            //include("404.php");
-            //include_once("home.php");
-          }
-
-        ?>
+<?php #display proper content based on page
+  //echo "Request:".$request." + ParamsCount: ".count($params)." +Params: ".$params[1];
+  include_once($page.".php");
+?>
 
 <?php
 include_once("footer.php");
