@@ -72,7 +72,7 @@
 <?php include_once("header.php"); ?>
 
 <?php #display proper content based on page
-  echo "Request:".$request." + ParamsCount: ".count($params)." +Params: ".$params[1];
+  //echo "Request:".$request." + ParamsCount: ".count($params)." +Params: ".$params[1];
   include_once($page.".php");
 ?>
 
