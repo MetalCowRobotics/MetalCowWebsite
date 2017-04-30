@@ -47,10 +47,8 @@
           $params = explode("/", $request);
 
 
-
-
           #keeps users from requesting any file they want
-          $safe_pages = array("users", "search", "thread");
+          $safe_pages = array("home", "join", "mentor", "sponsor", "robots");
 
           if(empty($params)){
             include_once("home.php");
@@ -58,6 +56,7 @@
             include_once($params[0].".php");
           } else {
             //include("404.php");
+            //include_once("home.php");
           }
 
         ?>
