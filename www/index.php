@@ -11,7 +11,7 @@
   #handle the page filtering for safe pages
   if(empty($params)){
     $page="home";
-  }elseif(!in_array($page, $safe_pages)){
+  }elseif(!in_array($params[1], $safe_pages)){
     //$page="404";
     $page="home";
   }else{
