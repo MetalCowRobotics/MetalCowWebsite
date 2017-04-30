@@ -46,9 +46,10 @@
           #split the path by '/'
           $params = explode("/", $request);
 
-
           #keeps users from requesting any file they want
           $safe_pages = array("home", "join", "mentor", "sponsor", "robots");
+
+echo param[0];
 
           if(empty($params)){
             include_once("home.php");
@@ -57,7 +58,6 @@
           } else {
             //include("404.php");
             //include_once("home.php");
-            echo $params[0];
           }
 
         ?>
