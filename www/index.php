@@ -49,12 +49,12 @@
           #keeps users from requesting any file they want
           $safe_pages = array("home", "join", "mentor", "sponsor", "robots");
 
-echo "Request:".$request." + ParamsCount: ".count($params)." +Params: ".$params[0];
+echo "Request:".$request." + ParamsCount: ".count($params)." +Params: ".$params[1];
 
           if(empty($params)){
             include_once("home.php");
-          }elseif(in_array($params[0], $safe_pages)) {
-            include_once($params[0].".php");
+          }elseif(in_array($params[1], $safe_pages)) {
+            include_once($params[1].".php");
           } else {
             //include("404.php");
             //include_once("home.php");
