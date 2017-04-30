@@ -49,8 +49,7 @@
           #keeps users from requesting any file they want
           $safe_pages = array("home", "join", "mentor", "sponsor", "robots");
 
-echo $params[0];
-echo $safe_pages[0];
+echo "Params: ".$params[0];
 
           if(empty($params)){
             include_once("home.php");
