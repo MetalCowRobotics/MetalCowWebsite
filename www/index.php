@@ -1,6 +1,6 @@
 <?php
   #keeps users from requesting any file they want
-  $safe_pages = array("home", "join", "mentor", "sponsor", "robots");
+  $safe_pages = array("home", "join", "mentor", "robots", "sponsor", "sponsoring_details");
 
   #remove the directory path we don't want
   $request  = $_SERVER['REQUEST_URI'];
