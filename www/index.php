@@ -49,8 +49,8 @@
           #keeps users from requesting any file they want
           $safe_pages = array("home", "join", "mentor", "sponsor", "robots");
 
-echo "Request:".$request." + ParamsCount: ".count($params)." +Params: ".$params[1];
 
+//echo "Request:".$request." + ParamsCount: ".count($params)." +Params: ".$params[1];
           if(empty($params) || $params[1]==""){
             include_once("home.php");
           }elseif(in_array($params[1], $safe_pages)) {
