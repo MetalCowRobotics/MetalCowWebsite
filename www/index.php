@@ -57,6 +57,7 @@
           } else {
             //include("404.php");
             //include_once("home.php");
+            echo $params[0];
           }
 
         ?>
