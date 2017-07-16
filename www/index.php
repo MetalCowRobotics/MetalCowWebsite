@@ -17,10 +17,7 @@
   }else{
     $page = $params[1];
   }
-
-
-
-  ?>
+?>
 
 
 <!DOCTYPE html>
