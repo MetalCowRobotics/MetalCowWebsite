@@ -20,3 +20,12 @@ body.custom-background {
 .header-content-wrap {
   padding-top: 210px !important;
 }
+
+.latestnews-img img.profile-pic {
+	border-radius: 50%;
+	width: 174px;
+	height: 174px;
+	margin: auto;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
