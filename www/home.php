@@ -178,95 +178,123 @@
             <!-- CLIENTS -->
           </div><!-- / END CONTAINER -->
         </section><!-- END ABOUT US SECTION -->
-        <section class="our-team" id="team">
-          <div class="container">
-            <div class="section-header">
-              <h2 class="dark-text">
-                Our Robots
-              </h2>
-              <div class="section-legend">
+
+
+
+
+
+        <section class="latest-news" id="latestnews">
+      		<div class="container">
+      			<div class="section-header">
+      				<h2 class="dark-text">Our Robots</h2>
+      				<div class="dark-text section-legend">
                 Each year MetalCow team members design, prototype and build a
                 working 120lb metal robot to compete in <a href=
                 "http://www.firstinspires.org/robotics/frc">FIRST Robotics
                 Competition</a>. The challenge for each year is unique, and
                 therefore the robot for each year is unique.
-              </div>
-            </div>
-            <div class="row" data-scrollreveal=
-            "enter left after 0s over 0.1s">
-              <div class="col-lg-3 col-sm-3 team-box">
-                <div class="team-member">
-                  <figure class="profile-pic">
-                    <img src="img/chippy_frontpage_1.jpg" alt="Uploaded image">
-                  </figure>
-                  <div class="member-details">
-                    <h3 class="dark-text red-border-bottom">Chippy</h3>
-                    <div class="position">
-                      <div style="text-align:left">
-                        <em>Ultimate Ascent</em>, 2013<br>
-                        <a href="robots">…learn more</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="social-icons"></div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-sm-3 team-box">
-                <div class="team-member">
-                  <figure class="profile-pic">
-                    <img src="img/daisy_frontpage_1.jpg" alt="Uploaded image">
-                  </figure>
-                  <div class="member-details">
-                    <h3 class="dark-text red-border-bottom">Daisy</h3>
-                    <div class="position">
-                      <div style="text-align:left">
-                        <em>Aerial Assist</em>, 2014<br>
-                        <a href="robots">…learn more</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="social-icons"></div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-sm-3 team-box">
-                <div class="team-member">
-                  <figure class="profile-pic">
-                    <img src="img/ellie_frontpage_1.jpg" alt="Uploaded image">
-                  </figure>
-                  <div class="member-details">
-                    <h3 class="dark-text red-border-bottom">
-                      Ellie
-                    </h3>
-                    <div class="position">
-                      <div style="text-align:left">
-                        <em>Recycle Rush</em>, 2015<br>
-                        <a href="robots">…learn more</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="social-icons"></div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-sm-3 team-box">
-                <div class="team-member">
-                  <figure class="profile-pic">
-                    <img src="img/flank_frontpage_1.jpg" alt="Uploaded image">
-                  </figure>
-                  <div class="member-details">
-                    <h3 class="dark-text red-border-bottom">Flank</h3>
-                    <div class="position">
-                      <div style="text-align:left">
-                        <em>Stronghold</em>, 2016<br>
-                        <a href="robots">…learn more</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="social-icons"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+      				</div>
+      			</div>
+      			<div class="clear"></div>
+      			<div class="carousel slide" data-ride="carousel" id="carousel-homepage-latestnews">
+      				<div class="carousel-inner" role="listbox">
+      					<div class="item active" role="option"> <!--Start of the first group of robots-->
+
+                   <!--Gertrude, 2017-->
+                   <div class="col-sm-3 latestnews-box">
+                     <div class="latestnews-img">
+       								<a class="latestnews-img-a" href="robots" title="Gertrude">
+                         <img alt="" class="profile-pic" src="img/gertrude_frontpage_1.jpg"></a>
+       							</div>
+       							<div class="latesnews-content">
+       								<h3 class="latestnews-title">
+                         <a href="robots" title="Gertrude, 2017">
+                           Gertrude, 2016</a>
+                       </h3>
+       								<p>Some stuff about Gertrude and ???<em>Steamworks</em>, 2017<br>
+                       <a href="robots">…learn more</a></p>
+       							</div>
+      						</div>
+
+                   <!--Flank, 2016-->
+                   <div class="col-sm-3 latestnews-box">
+      							<div class="latestnews-img">
+      								<a class="latestnews-img-a" href="robots" title="Flank">
+                        <img alt="" class="profile-pic" src="img/flank_frontpage_1.jpg"></a>
+      							</div>
+      							<div class="latesnews-content">
+      								<h3 class="latestnews-title">
+                        <a href="robots" title="Flank, 2016">
+                          Flank, 2016</a>
+                      </h3>
+      								<p>Some stuff about Flank and ???<em>Stronghold</em>, 2016<br>
+                      <a href="robots">…learn more</a></p>
+      							</div>
+      						</div>
+
+                   <!--Ellie, 2015-->
+                   <div class="col-sm-3 latestnews-box">
+                     <div class="latestnews-img">
+       								<a class="latestnews-img-a" href="robots" title="Ellie">
+                         <img alt="" class="profile-pic" src="img/ellie_frontpage_1.jpg"></a>
+       							</div>
+       							<div class="latesnews-content">
+       								<h3 class="latestnews-title">
+                         <a href="robots" title="Ellie, 2015">
+                           Ellie, 2015</a>
+                       </h3>
+       								<p>Some stuff about Ellie and ???<em>game</em>, 2015<br>
+                       <a href="robots">…learn more</a></p>
+       							</div>
+      						</div>
+
+                   <!--Daisy, 2013-->
+                   <div class="col-sm-3 latestnews-box">
+                     <div class="latestnews-img">
+       								<a class="latestnews-img-a" href="robots" title="Daisy">
+                         <img alt="" class="profile-pic" src="img/daisy_frontpage_1.jpg"></a>
+       							</div>
+       							<div class="latesnews-content">
+       								<h3 class="latestnews-title">
+                         <a href="robots" title="Daisy, 2014">
+                           Daisy, 2014</a>
+                       </h3>
+       								<p>Some stuff about Daisy and ???<em>game</em>, 2014<br>
+                       <a href="robots">…learn more</a></p>
+       							</div>
+      						</div>
+
+      						<div class="clear"></div>
+      					</div>
+                <div class="item"><!--Start of the second group of robots-->
+
+                   <!--Chippy, 2012-->
+                   <div class="col-sm-3 latestnews-box">
+                     <div class="latestnews-img">
+       								<a class="latestnews-img-a" href="robots" title="Chippy">
+                         <img alt="" class="profile-pic" src="img/chippy_frontpage_1.jpg"></a>
+       							</div>
+       							<div class="latesnews-content">
+       								<h3 class="latestnews-title">
+                         <a href="robots" title="Chippy, 2013">
+                           Chippy, 2013</a>
+                       </h3>
+       								<p>Some stuff about Chippy and ???<em>game</em>, 2013<br>
+                       <a href="robots">…learn more</a></p>
+       							</div>
+      						</div>
+
+      					</div>
+
+              </div><a class="left carousel-control" data-slide="prev" href="#carousel-homepage-latestnews" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span></a> <a class="right carousel-control" data-slide="next" href="#carousel-homepage-latestnews" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span></a>
+      			</div>
+      		</div>
+      	</section>
+
+
+
+
+
         <section class="contact-us" id="contact">
           <div class="container">
             <!-- SECTION HEADER -->
