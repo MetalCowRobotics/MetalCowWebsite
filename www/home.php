@@ -209,7 +209,7 @@
        							<div class="latesnews-content">
        								<h3 class="latestnews-title">
                          <a href="robots" title="Gertrude, 2017">
-                           Gertrude, 2016</a>
+                           Gertrude, 2017</a>
                        </h3>
        								<p>Some stuff about Gertrude and ???<em>Steamworks</em>, 2017<br>
                        <a href="robots">…learn more</a></p>
