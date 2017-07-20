@@ -130,7 +130,7 @@
                       class="skill1" tabindex="-1">
                     </div>
                     <div class="section-legend">
-                      College Enollment
+                      College Enrollment
                     </div>
                     <p>
                       89% of MetalCow students pursue careers in STEM fields
