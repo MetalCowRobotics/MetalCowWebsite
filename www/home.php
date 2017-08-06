@@ -21,9 +21,9 @@
               <!-- SECTION TITLE -->
               <div class="section-legend">
                 <h3>
-                  Our mission is to promote science, technology, and
-                  engineering in the community while gaining real world
-                  skills we can use for the rest of our lives.
+                  Our mission is to promote science, technology, and engineering in the community
+                  while providing students expirential learning opportunities to develop real-world
+                  skills they can use for the rest of their lives.
                 </h3>
               </div>
             </div>
@@ -188,8 +188,8 @@
       			<div class="section-header">
       				<h2 class="dark-text">Our Robots</h2>
       				<div class="dark-text section-legend">
-                Each year MetalCow team members design, prototype and build a
-                working 120lb metal robot to compete in <a href=
+                Each year MetalCow team members design, prototype, and build a
+                working 120lb aluminum chassis robot to compete in <a href=
                 "http://www.firstinspires.org/robotics/frc">FIRST Robotics
                 Competition</a>. The challenge for each year is unique, and
                 therefore the robot for each year is unique.

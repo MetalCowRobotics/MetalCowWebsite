@@ -3,8 +3,7 @@
     <div class="content-left-wrap col-md-12">
       <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
-          <article id="post-152" class=
-          "post-152 page type-page status-publish hentry">
+          <article id="post-152" class="post-152 page type-page status-publish hentry">
             <div class="entry-content">
               <p>
                 MetalCow Robotics was founded in November 2011 under
@@ -15,8 +14,37 @@
                 opportunities to local high school youth in McLean,
                 Woodford, and Livingston Counties.
               </p>
-              <h1 id="ellie">
-                Ellie<br>
+
+              <h1 id="gertrude">Gertrude<br>
+                <small>Steamworks, <em>2017</em></small>
+              </h1>
+              <p>
+                We built Gertrude, our sixth robot in 2017, in honor of Gertrude Warren “The Mother of
+                4-H”. Gertrude was capable of performing all aspects of Steamworks which involved
+                shooting balls and placing gears, however, we rarely shot balls in competition as the
+                game and our strength was placing gears and climbing. Our team remained stable at 24
+                members and we participated in two regions. After working through fewer bugs, we
+                finished 33rd at the week 3 Central Illinois Regional, which prepared us well for a 20th
+                overall ranking week 5 at the Midwest Regional in Chicago where we were picked by the
+                3rd seeded alliance and had a chance to win it all and had the top two highest scores, but
+                came up short after some unfortunate mechanical problems from tough defense.
+              </p>
+
+              <hr>
+              <h1 id="flank">Flank<br>
+                <small>Stronghold, <em>2016</em></small>
+              </h1>
+              <p>
+                We built our fifth robot, Flank, in 2016. The biggest highlight of this season was moving
+                into our new permanent year round home at the Crossroads Center in January at the
+                start of our build season. Our team grew to 24 members and we participated in two
+                regions. After working through several bugs, we finished 20 th at the week 3 Central
+                Illinois Regional, which prepared us well for a 9 th overall ranking week 5 at the Queen’s
+                City Regional.
+              </p>
+
+              <hr>
+              <h1 id="ellie">Ellie<br>
                 <small>Recycle Rush, <em>2015</em></small>
               </h1>
               <p>
@@ -41,7 +69,7 @@
                 <img class="alignleft" src=
                 "img/Slide-Drivetrain-300x181.png"
                 alt="via simbotics.org" width="300" height=
-                "181">&lt;/&gt;Ellie was designed with an elevator lift
+                "181">Ellie was designed with an elevator lift
                 in mind. We had two lead screws to elevate the arms
                 that could lift over 60 pounds. We also a jump slide
                 drive system which consisted of 5 omni-wheels; two on
@@ -63,8 +91,7 @@
                 can and litter on top scoring 36 points.
               </p>
               <hr>
-              <h1 id="daisy">
-                Daisy<br>
+              <h1 id="daisy">Daisy<br>
                 <small>Aerial Assist, <em>2014</em></small>
               </h1>
               <p>
@@ -114,8 +141,7 @@
                 goal or the low goal.
               </p>
               <hr>
-              <h1 id="chippy">
-                Chippy<br>
+              <h1 id="chippy">Chippy<br>
                 <small>Ultimate Assist, <em>2013</em></small>
               </h1>
               <p>
@@ -158,8 +184,7 @@
                 bonus.
               </p>
               <hr>
-              <h1 id="bessie">
-                Bessie<br>
+              <h1 id="bessie">Bessie<br>
                 <small>Rebound Rumble, <em>2012</em></small>
               </h1>
               <p>
@@ -196,6 +221,8 @@
                 low goal, and be able to push down the bridge so it
                 could balance on and travel across.
               </p>
+
+
             </div><!-- .entry-content -->
           </article><!-- #post-## -->
         </main><!-- #main -->
