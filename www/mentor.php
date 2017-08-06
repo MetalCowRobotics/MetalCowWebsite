@@ -116,23 +116,14 @@
                     College Mentors
                   </h2>
                   <p>
-                    Our college mentors also bring important knowledge
-                    and experience to the team while building their own
-                    skills and resume. College students interested in
-                    learning new skills, while teaching their skill set
-                    as well, can volunteer their services to team.
+                    Our college mentors bring important knowledge and experience
+                    to the team while building their own skills and resume.
                   </p>
                   <ul>
-                    <li>Apply your skills
-                    </li>
-                    <li>Build your resume
-                    </li>
-                    <li>Network with industry professionals
-                    </li>
-                    <li>Be a positive role model
-                    </li>
-                    <li>etc…
-                    </li>
+                    <li>Be a positive role model</li>
+                    <li>Apply your skills</li>
+                    <li>Build your resume</li>
+                    <li>Network with industry professionals</li>
                   </ul>
                   <p style="text-align: center;">
                     <span style="font-weight: bold;">Do you want to
