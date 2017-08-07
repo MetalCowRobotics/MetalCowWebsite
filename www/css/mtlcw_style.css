@@ -29,3 +29,10 @@ body.custom-background {
 	overflow: hidden;
 	margin-bottom: 25px;
 }
+
+.tab-content{
+  text-align:left;
+}
+.tab-pane{
+  padding-top:1em;
+}
