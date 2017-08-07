@@ -22,7 +22,7 @@
               <div class="section-legend">
                 <h3>
                   Our mission is to promote science, technology, and engineering in the community
-                  while providing students expirential learning opportunities to develop real-world
+                  while providing students experiential learning opportunities to develop real-world
                   skills they can use for the rest of their lives.
                 </h3>
               </div>

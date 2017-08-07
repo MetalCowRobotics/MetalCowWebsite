@@ -1,11 +1,27 @@
 
 <div id="content" class="site-content">
+
+
   <div class="container">
     <div class="content-left-wrap col-md-12">
       <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
           <article id="post-26" class="post-26 page type-page status-publish hentry">
             <div class="entry-content">
+
+              <div class="row">
+                <div class="section-header">
+                  <h2>
+                    Join the MetalCow Robotics team!
+                  </h2>
+                  <div class="section-legend">
+                    We need a quote or something for here....!!!
+                  </div>
+                </div>
+
+
+
+
               <p>
                 MetalCow Robotics Team 4213 is a part of FIRST, a non-profit organization, which promotes
                 science and technology and 4-H. We are a community-based team and accept public, private, and
@@ -64,25 +80,77 @@
               </p>
               <hr>
 
-Roles
-
-business
-manufacturing
-controls
-code
-CAD
 
 
 
+                  <ul id="myTab" class="nav nav-tabs nav-justified" style="margin:0;">
+                      <li class="active">
+                        <a href="#service-one" data-toggle="tab"><i class="fa fa-wrench"></i> Build</a>
+                      </li>
+                      <li class="">
+                        <a href="#service-two" data-toggle="tab"><i class="fa fa-desktop"></i> CAD</a>
+                      </li>
+                      <li class="">
+                        <a href="#service-three" data-toggle="tab"><i class="fa fa-code-fork"></i> Code</a>
+                      </li>
+                      <li class="">
+                        <a href="#service-four" data-toggle="tab"><i class="fa fa-users"></i> Business</a>
+                      </li>
+                  </ul>
+
+                  <div id="myTabContent" class="tab-content">
+                      <div class="tab-pane fade active in" id="service-one">
+                          <h4>Build and Manufacturing</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                          <a href="https://goo.gl/forms/zsyqycmTz9iImQC72" class="btn btn-primary custom-button green-btn">Join the team</a>
+                      </div>
+                      <div class="tab-pane fade" id="service-two">
+                          <h4>Computer Aided Design (CAD)</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                          <a href="https://goo.gl/forms/zsyqycmTz9iImQC72" class="btn btn-primary custom-button green-btn">Join the team</a>
+                      </div>
+                      <div class="tab-pane fade" id="service-three">
+                          <h4>Control Systems and Code</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                          <a href="https://goo.gl/forms/zsyqycmTz9iImQC72" class="btn btn-primary custom-button green-btn">Join the team</a>
+                      </div>
+                      <div class="tab-pane fade" id="service-four">
+                          <h4>Business Adminstration</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                          <a href="https://goo.gl/forms/zsyqycmTz9iImQC72" class="btn btn-primary custom-button green-btn">Join the team</a>
+                      </div>
 
 
-              <p>
-                <a href="https://goo.gl/forms/zsyqycmTz9iImQC72" class="btn btn-primary custom-button green-btn">Join the team</a>
-              </p>
+              </div>
+
+
+
+
             </div><!-- .entry-content -->
           </article><!-- #post-## -->
         </main><!-- #main -->
       </div><!-- #primary -->
     </div><!-- .content-left-wrap -->
+
+
+
+
+
+
+
   </div><!-- .container -->
+
+
+
+
+          <!-- Service Tabs -->
+          <div class="container">
+
+          </div>
+
+
 </div><!-- .site-content -->

@@ -12,8 +12,7 @@
                     Mentoring with MetalCow Robotics
                   </h2>
                   <div class="section-legend">
-                    About mentoring with MetalCow something interesting
-                    and fun.
+                    “If I have seen further it is by standing on the shoulders of giants.” <em>- Isaac Newton</em>
                   </div>
                 </div>
                 <div class="col-md-6">
