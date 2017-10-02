@@ -4,6 +4,6 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Knob/1.2.0/jquery.knob.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
-<script type='text/javascript' src="js/scrollReveal.js"></script>
-<script type='text/javascript' src="js/zerif.js"></script>
+<script type='text/javascript' src="/js/scrollReveal.js"></script>
+<script type='text/javascript' src="/js/zerif.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/spf/2.4.0/spf.js"></script>

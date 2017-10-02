@@ -37,7 +37,7 @@
                   </p>
                 </div>
                 <div class="col-md-6">
-                  <img class="img-responsive" src="img/mentors1.png" alt="">
+                  <img class="img-responsive" src="/img/mentors1.png" alt="">
                 </div>
               </div>
               <div class="row">
@@ -49,50 +49,34 @@
                   </h3>
                   <div class="col-md-3 col-sm-6">
                     <ul>
-                      <li>Software Engineering
-                      </li>
-                      <li>Computer Vision
-                      </li>
-                      <li>Web Development
-                      </li>
-                      <li>Database Administration
-                      </li>
+                      <li>Software Engineering</li>
+                      <li>Computer Vision</li>
+                      <li>Web Development</li>
+                      <li>Database Administration</li>
                     </ul>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <ul>
-                      <li>Mechanical Engineering
-                      </li>
-                      <li>CAD (SolidWorks)
-                      </li>
-                      <li>Automotive Repair
-                      </li>
-                      <li>Welding and Metalwork
-                      </li>
+                      <li>Mechanical Engineering</li>
+                      <li>CAD (SolidWorks)</li>
+                      <li>Automotive Repair</li>
+                      <li>Welding and Metalwork</li>
                     </ul>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <ul>
-                      <li>Finances and Accounting
-                      </li>
-                      <li>Grant Writing
-                      </li>
-                      <li>Social Media Management
-                      </li>
-                      <li>Marketing and Fundraising
-                      </li>
+                      <li>Finances and Accounting</li>
+                      <li>Grant Writing</li>
+                      <li>Social Media Management</li>
+                      <li>Marketing and Fundraising</li>
                     </ul>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <ul>
-                      <li>Photography
-                      </li>
-                      <li>Videography and Film
-                      </li>
-                      <li>Graphic Design
-                      </li>
-                      <li>Animation
-                      </li>
+                      <li>Photography</li>
+                      <li>Videography and Film</li>
+                      <li>Graphic Design</li>
+                      <li>Animation</li>
                     </ul>
                   </div>
                 </div>
@@ -106,9 +90,7 @@
               <div class="row">
                 <hr>
                 <div class="col-md-6">
-                  <img class="img-responsive" src=
-                  "img/mentors2.png"
-                  alt="">
+                  <img class="img-responsive" src="/img/mentors2.png" alt="">
                 </div>
                 <div class="col-md-6">
                   <h2>

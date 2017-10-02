@@ -31,7 +31,7 @@
               <div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
                 <div class="service-icon">
                   <!-- FOCUS ICON-->
-                       <div class="pixeden" style="background:url(img/stem_s.png) no-repeat center;width:100%; height:100%;"></div>
+                       <div class="pixeden" style="background:url(/img/stem_s.png) no-repeat center;width:100%; height:100%;"></div>
                 </div>
                 <h3 class="red-border-bottom">Science</h3><!-- FOCUS HEADING -->
                 <p>
@@ -42,7 +42,7 @@
               <div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
                 <div class="service-icon">
                   <!-- FOCUS ICON-->
-        <div class="pixeden" style="background:url(img/stem_t.png) no-repeat center;width:100%; height:100%;"></div>
+        <div class="pixeden" style="background:url(/img/stem_t.png) no-repeat center;width:100%; height:100%;"></div>
                 </div>
                 <h3 class="red-border-bottom">Technology</h3><!-- FOCUS HEADING -->
                 <p>
@@ -53,7 +53,7 @@
               <div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
                 <div class="service-icon">
                   <!-- FOCUS ICON-->
-        <div class="pixeden" style="background:url(img/stem_e.png) no-repeat center;width:100%; height:100%;"></div>
+        <div class="pixeden" style="background:url(/img/stem_e.png) no-repeat center;width:100%; height:100%;"></div>
                 </div>
                 <h3 class="red-border-bottom">Engineering</h3><!-- FOCUS HEADING -->
                 <p>
@@ -64,7 +64,7 @@
               <div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
                 <div class="service-icon">
                   <!-- FOCUS ICON-->
-        <div class="pixeden" style="background:url(img/stem_m.png) no-repeat center;width:100%; height:100%;"></div>
+        <div class="pixeden" style="background:url(/img/stem_m.png) no-repeat center;width:100%; height:100%;"></div>
                 </div>
                 <h3 class="red-border-bottom">Math</h3><!-- FOCUS HEADING -->
                 <p>
@@ -204,7 +204,7 @@
                    <div class="col-sm-3 latestnews-box">
                      <div class="latestnews-img">
        								<a class="latestnews-img-a" href="robots" title="Gertrude">
-                         <img alt="" class="profile-pic" src="img/gertrude_frontpage_1.jpg"></a>
+                         <img alt="" class="profile-pic" src="/img/gertrude_frontpage_1.jpg"></a>
        							</div>
        							<div class="latesnews-content">
        								<h3 class="latestnews-title">
@@ -220,7 +220,7 @@
                    <div class="col-sm-3 latestnews-box">
       							<div class="latestnews-img">
       								<a class="latestnews-img-a" href="robots" title="Flank">
-                        <img alt="" class="profile-pic" src="img/flank_frontpage_1.jpg"></a>
+                        <img alt="" class="profile-pic" src="/img/flank_frontpage_1.jpg"></a>
       							</div>
       							<div class="latesnews-content">
       								<h3 class="latestnews-title">
@@ -236,7 +236,7 @@
                    <div class="col-sm-3 latestnews-box">
                      <div class="latestnews-img">
        								<a class="latestnews-img-a" href="robots" title="Ellie">
-                         <img alt="" class="profile-pic" src="img/ellie_frontpage_1.jpg"></a>
+                         <img alt="" class="profile-pic" src="/img/ellie_frontpage_1.jpg"></a>
        							</div>
        							<div class="latesnews-content">
        								<h3 class="latestnews-title">
@@ -252,7 +252,7 @@
                    <div class="col-sm-3 latestnews-box">
                      <div class="latestnews-img">
        								<a class="latestnews-img-a" href="robots" title="Daisy">
-                         <img alt="" class="profile-pic" src="img/daisy_frontpage_1.jpg"></a>
+                         <img alt="" class="profile-pic" src="/img/daisy_frontpage_1.jpg"></a>
        							</div>
        							<div class="latesnews-content">
        								<h3 class="latestnews-title">
@@ -272,7 +272,7 @@
                    <div class="col-sm-3 latestnews-box">
                      <div class="latestnews-img">
        								<a class="latestnews-img-a" href="robots" title="Chippy">
-                         <img alt="" class="profile-pic" src="img/chippy_frontpage_1.jpg"></a>
+                         <img alt="" class="profile-pic" src="/img/chippy_frontpage_1.jpg"></a>
        							</div>
        							<div class="latesnews-content">
        								<h3 class="latestnews-title">
@@ -294,7 +294,7 @@
 
 
 
-
+<?php /*
         <section class="contact-us" id="contact">
           <div class="container">
             <!-- SECTION HEADER -->
@@ -336,4 +336,7 @@
             </div><!-- / END CONTACT FORM-->
           </div><!-- / END CONTAINER -->
         </section><!-- / END CONTACT US SECTION-->
+*/ ?>
+
+
       </div><!-- .site-content -->

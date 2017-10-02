@@ -37,7 +37,7 @@
                     make a difference in our lives.
                   </div>
                   <div class="col-md-6">
-                    <img class="img-responsive" src="img/sponsor2.jpeg" alt="">
+                    <img class="img-responsive" src="/img/sponsor2.jpeg" alt="">
                   </div>
                   <div class="col-md-12"></div>
                 </div>
@@ -108,20 +108,11 @@
                       </div>
                       <div class="panel-body">
                         <ul>
-                          <li>All benefits of Gold Sponsorship plus…
-                          </li>
-                          <li>Large Company Logo on MetalCow Robotics
-                          team t-shirt
-                          </li>
-                          <li>Provide your company a Demonstration or
-                          Hands on Workshop
-                          </li>
-                          <li>Company name and logo on the competition
-                          robot<em>*</em>
-                          </li>
-                          <li>Company Name – Announced at Regional and
-                          National Competitions and other events.
-                          </li>
+                          <li>All benefits of Gold Sponsorship plus…</li>
+                          <li>Large Company Logo on MetalCow Robotics team t-shirt</li>
+                          <li>Provide your company a Demonstration or Hands on Workshop</li>
+                          <li>Company name and logo on the competition robot<em>*</em></li>
+                          <li>Company Name – Announced at Regional and National Competitions and other events.</li>
                         </ul>
                         <div style="text-align: center;">
                           <a class="btn btn-default" href="sponsoring-details">Learn More</a>
@@ -165,7 +156,7 @@
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <img class="img-responsive" src="img/sponsor1.jpeg" alt="">
+                  <img class="img-responsive" src="/img/sponsor1.jpeg" alt="">
                 </div>
                 <div class="col-md-6">
                   <p>
@@ -195,78 +186,78 @@
                   <div class="col-md-2 col-sm-3 platimumSponsor">
                     <a href=
                     "http://www.meyerems.com/"><br>
-                    <img src="img/MeyerEMS_750x400.png" alt="Meyer Electronic Manufacturing Services"><br></a>
+                    <img src="/img/MeyerEMS_750x400.png" alt="Meyer Electronic Manufacturing Services"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 platimumSponsor">
                     <a href="http://www.pioneer.com/home/site/about"><br>
-                    <img src="img/pioneer_750x400.png" alt="Dupont Pioneer"><br></a>
+                    <img src="/img/pioneer_750x400.png" alt="Dupont Pioneer"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 platimumSponsor">
                     <a href="#"><br>
-                    <img src="img/crossroadsCenter_750x400.png" alt="Crossroads Center"><br></a>
+                    <img src="/img/crossroadsCenter_750x400.png" alt="Crossroads Center"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 platimumSponsor">
                     <a href="http://www.bridgestone.com/"><br>
-                    <img src="img/bridgestone_750x400.png" alt="Bridgestone"><br></a>
+                    <img src="/img/bridgestone_750x400.png" alt="Bridgestone"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 goldSponsor">
                     <a href="http://www.accelectronix.com/"><br>
-                    <img src="img/accElectronix_750x400.png" alt="ACC Electronix"><br></a>
+                    <img src="/img/accElectronix_750x400.png" alt="ACC Electronix"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 goldSponsor">
                     <a href="http://www.statefarm.com/"><br>
-                    <img src="img/statefarm_750x400.png" alt="State Farm"><br></a>
+                    <img src="/img/statefarm_750x400.png" alt="State Farm"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 goldSponsor">
                     <a href="https://www.hpe.com/us/en/home.html"><br>
-                    <img src="img/hpEnterprise_750x400.png" alt="HP Enterprise"><br></a>
+                    <img src="/img/hpEnterprise_750x400.png" alt="HP Enterprise"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 goldSponsor">
                     <a href="http://www.growmark.com/"><br>
-                    <img src="img/growmark_750x400.png"
+                    <img src="/img/growmark_750x400.png"
                     alt="Growmark"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 goldSponsor">
                     <a href="http://www.yellowpages.com/normal-il/mip/kinsella-seed-28160645">
                     <br>
-                    <img src="img/asgrowDekalb_750x400.png" alt="Kinsella Seed"><br></a>
+                    <img src="/img/asgrowDekalb_750x400.png" alt="Kinsella Seed"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 goldSponsor">
                     <a href="http://www.yellowpages.com/normal-il/mip/kinsella-seed-28160645">
                     <br>
-                    <img src="img/kss_750x400.png" alt="Kinsella Seed"><br></a>
+                    <img src="/img/kss_750x400.png" alt="Kinsella Seed"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 silverSponsor">
                     <a href="http://www.g3machining.com/"><br>
-                    <img src="img/g3machining_750x400.png" alt="G3 Machining"><br></a>
+                    <img src="/img/g3machining_750x400.png" alt="G3 Machining"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 silverSponsor">
                     <a href="https://www.tripsheetcentral.com"><br>
-                    <img src="img/tripSheetCentral_750x400.png" alt="Trip Sheet Central"><br></a>
+                    <img src="/img/tripSheetCentral_750x400.png" alt="Trip Sheet Central"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 silverSponsor">
                     <a href="https://www.dupont.com"><br>
-                    <img src="img/dupont_750x400.png" alt="Dupont"><br></a>
+                    <img src="/img/dupont_750x400.png" alt="Dupont"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 silverSponsor">
                     <a href="https://www.microsoft.com/en-us/"><br>
-                    <img src="img/microsoft_750x400.png" alt="Microsoft"><br></a>
+                    <img src="/img/microsoft_750x400.png" alt="Microsoft"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 silverSponsor">
                     <a href="http://www.americanbuildings.com/"><br>
-                    <img src="img/americanBuildingsNucor_750x400.png" alt="American Building"><br></a>
+                    <img src="/img/americanBuildingsNucor_750x400.png" alt="American Building"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 silverSponsor">
                     <a href="http://www.firstfarmers.com/home"><br>
-                    <img src="img/firstFarmersBank_750x400.png" alt="First Farmers Bank"><br></a>
+                    <img src="/img/firstFarmersBank_750x400.png" alt="First Farmers Bank"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 silverSponsor">
                     <a href="http://web.extension.illinois.edu/lmw/mclean4h/"><br>
-                    <img src="img/timelessClovers_750x400.png" alt="Timeless Clovers"><br></a>
+                    <img src="/img/timelessClovers_750x400.png" alt="Timeless Clovers"><br></a>
                   </div>
                   <div class="col-md-2 col-sm-3 friendSponsor">
                     <a href="http://www.culligan.com/"><br>
-                    <img src="img/culligan_750x400.png" alt="Culligan"><br></a>
+                    <img src="/img/culligan_750x400.png" alt="Culligan"><br></a>
                   </div>
                 </div>
                 <p>

@@ -49,7 +49,7 @@
               </h1>
               <p>
                 <img class="size-medium wp-image-27 alignright" src=
-                "img/s/robot-ellie-218x300.jpg"
+                "/img/s/robot-ellie-218x300.jpg"
                 alt="robot-ellie" width="218" height="300"><br>
                 2015 was our fourth season and the senior year of many
                 of our founding members. We started with a large grant
@@ -67,7 +67,7 @@
               </p>
               <p>
                 <img class="alignleft" src=
-                "img/Slide-Drivetrain-300x181.png"
+                "/img/Slide-Drivetrain-300x181.png"
                 alt="via simbotics.org" width="300" height=
                 "181">Ellie was designed with an elevator lift
                 in mind. We had two lead screws to elevate the arms
@@ -111,9 +111,7 @@
                 program.
               </p>
               <p>
-                <img class="alignleft" src=
-                "http://static1.squarespace.com/static/51919127e4b03488d35e808e/t/534ad840e4b0dd40982f3cfd/1397413966034/20140215_114341.jpg?format=500w"
-                alt="20140215_114341.jpg" width="426" height="568">
+                <img class="alignleft" src="" alt="20140215_114341.jpg" width="426" height="568">
               </p>
               <p>
                 Aerial Assist is a game styled similarly to a over
@@ -161,9 +159,7 @@
                 Technical Excellence.
               </p>
               <p>
-                <img class="alignright" src=
-                "http://static1.squarespace.com/static/51919127e4b03488d35e808e/t/51a3d1d8e4b068f76a13afee/1433285744575/Chippy.JPG?format=500w"
-                alt="Chippy.JPG">
+                <img class="alignright" src="" alt="Chippy.JPG">
               </p>
               <p>
                 Ultimate Ascent is a game styled similarly to disc golf
@@ -188,9 +184,7 @@
                 <small>Rebound Rumble, <em>2012</em></small>
               </h1>
               <p>
-                <img class="alignleft" src=
-                "http://static1.squarespace.com/static/51919127e4b03488d35e808e/t/51a3d2c0e4b00f4428943703/1369690817028/Bessie.jpg?format=500w"
-                alt="Bessie.jpg">
+                <img class="alignleft" src="" alt="Bessie.jpg">
               </p>
               <p>
                 The team of 11 members spent 6 weeks in
