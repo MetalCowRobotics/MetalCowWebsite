@@ -23,18 +23,15 @@
 
 
               <p>
-                MetalCow Robotics Team 4213 is a part of FIRST, a non-profit organization, which promotes
-                science and technology and 4-H. We are a community-based team and accept public, private, and
-                homeschool students. We have been in existence for 5 years and have done extraordinary                               things in that time. Students
-                on the team will work with engineers and professionals from local companies and
-                businesses to design and build a 120 lb. robot in six weeks.
+                MetalCow Robotics Team 4213 is 4-H Club which competes in FIRST Robotics Competition.
+                We are non-profit organization promoting science and technology education in our community.
+                As a community-based team our students come from public, private, and
+                homeschool students.
+</p>
+                As a student on MetalCow Robotics you will work side-by-side with industry professionals
+                from local companies and businesses to design and build a 120 lb. robot in six weeks.
                 We have activities and meet year round. However, the build-season starts in early January
                 and goes to about mid-March.
-                During this time we typically meet Monday, Tuesday, Thursday, and Friday from 5:30 to 8:30
-                and Saturday from 9 to 4. More meeting time may be added before the end of the season
-                depending on progress of the robot. The team travels during the competition season,
-                which is early March through April depending on the events the team signs up for and
-                how far we advance.
               </p>
               <p>
                 Some student expectations include:
@@ -58,30 +55,8 @@
                 <li>Attend mandatory meetings
                 </li>
               </ul>
-              <p>
-                Eligibility criteria: Citizen of McLean County, Member of 4H, etc…
-              </p>
-              <p>
-                Please fill out the following application to your best ability. In addition to this
-                application, a short non-formal group interview will be conducted to determine your
-                acceptance on the team. These interviews will be laid back, will last no longer than 15
-                minutes, and will be conducted with more than 1 applicant at a time. Returning members must
-                complete a shortened application in order to provide feedback to the team on the
-                previous season. Additionally, returning members must conduct an individual performance
-                review in lieu of an interview. Make sure you plan enough time to complete the entire
-                application at one time. If you have any questions, comments, or concerns please don’t
-                hesitate to contact us.
-              </p>
-              <p>
-                The deadline to submit this application is August 15th.<br>Didn’t hear about the team till
-                after the August 15th deadline? No problem. Please go ahead and fill out the application and
-                send an email to teammetalcow@gmail.com indicating the reason for the late application and to be
-                considered for the team.
-              </p>
+              <p>Members on the team take on several roles...
               <hr>
-
-
-
 
                   <ul id="myTab" class="nav nav-tabs nav-justified" style="margin:0;">
                       <li class="active">
@@ -101,29 +76,45 @@
                   <div id="myTabContent" class="tab-content">
                       <div class="tab-pane fade active in" id="service-one">
                           <h4>Build and Manufacturing</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                          <p> Design and build the chassis and mechanisms of our 120lb robot! Learn and leverage engineering knowledge
+                          and metalwork skills to craft the bones of our team's competition robot.</p>
                           <a href="/stuApply/?role=build" class="btn btn-primary custom-button green-btn">Join the team</a>
                       </div>
                       <div class="tab-pane fade" id="service-two">
                           <h4>Computer Aided Design (CAD)</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                          <p>Leads design of robot’s structure, creates CAD models of design, aids in design process,
+assesses feasibility of design choices, simulates motion and analyzes weight of robot.
+<ul>
+<li>Give vital input into robot design</li>
+<li>Model robot using CAD design software</li>
+<li>Help construct prototypes</li>
+<li>Create CAD design notebook and produce presentation, hard-copies for competitions</li>
+</ul>
+</p>
                           <a href="/stuApply/?role=cad" class="btn btn-primary custom-button green-btn">Join the team</a>
                       </div>
                       <div class="tab-pane fade" id="service-three">
                           <h4>Control Systems and Code</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                          <p>Ensure all programmers learn how to program and participate in programming the robot
+<ul>
+  <li>Oversee Robot Programming, especially at competitions</li>
+  <li>Designs and builds robot electronics, wiring, circuitry, and sensor systems. Develops
+and updates robot computer programs (C++, LabVIEW, Java, et al).</li>
+  <li>Wire and program practice robot</li>
+  <li>Maintain communication and/or assign subteam members to maintain communication</li>
+with CAD and Build subteams, both verbally and electronically.
+</ul>
+</p>
                           <a href="/stuApply/?role=code" class="btn btn-primary custom-button green-btn">Join the team</a>
                       </div>
                       <div class="tab-pane fade" id="service-four">
                           <h4>Business Adminstration</h4>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+                          <p>Work to raise awareness about the team and attract new sponsors by creating donor
+materials and identifying and securing donors. They work with the team on writing grant applications and identifying
+potential donors. Help monitor and update the budget and manage the team finances by generate a comprehensive business plan.
+If you see yourself as an entrepreneur and hope to run a business of your own someday this is the role for you.</p>
                           <a href="/stuApply/?role=business" class="btn btn-primary custom-button green-btn">Join the team</a>
                       </div>
-
               </div>
 
 
