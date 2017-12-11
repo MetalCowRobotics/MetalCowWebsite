@@ -268,7 +268,6 @@
           <div class="container">
             <!-- SECTION HEADER -->
             <div class="section-header">
-              <a name="contactForm"></a> 
               <h2 class="white-text">Get in touch</h2>
             </div><!-- / END SECTION HEADER -->
             <!-- CONTACT FORM-->
