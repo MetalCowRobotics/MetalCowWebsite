@@ -52,6 +52,9 @@
     <link rel='stylesheet' id='zerif_responsive_style-css' href='/css/responsive.css' type='text/css' media='all'>
     <link rel='stylesheet' id='mtlcw_stle-css' href='/css/mtlcw_style.css' type='text/css' media='all'>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <link rel="icon" href="/img/cropped-logo4-32x32.png" sizes="32x32">
     <link rel="icon" href="/img/cropped-logo4-192x192.png" sizes="192x192">
     <link rel="apple-touch-icon-precomposed" href="/img/cropped-logo4-180x180.png">

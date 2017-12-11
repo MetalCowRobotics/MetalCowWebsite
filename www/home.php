@@ -35,8 +35,7 @@
                 </div>
                 <h3 class="red-border-bottom">Science</h3><!-- FOCUS HEADING -->
                 <p>
-                  Engage in the scientific method to analyze and solve unique
-                  challenges and build a robot.
+                  Engage in the scientific method to analyze and solve unique challenges.
                 </p>
               </div>
               <div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
@@ -46,8 +45,7 @@
                 </div>
                 <h3 class="red-border-bottom">Technology</h3><!-- FOCUS HEADING -->
                 <p>
-                  Learn CAD, programming, 3D animation, photo editing, and
-                  video production.
+                  Learn CAD, programming, 3D animation, photo editing, and video production.
                 </p>
               </div>
               <div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
@@ -57,8 +55,7 @@
                 </div>
                 <h3 class="red-border-bottom">Engineering</h3><!-- FOCUS HEADING -->
                 <p>
-                  Apply mechanical and electrical engineering concepts to
-                  prototype and build a robot.
+                  Apply mechanical and electrical engineering concepts to prototype and build a robot.
                 </p>
               </div>
               <div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
@@ -68,8 +65,7 @@
                 </div>
                 <h3 class="red-border-bottom">Math</h3><!-- FOCUS HEADING -->
                 <p>
-                  Leverage mathematical concepts and logical reasoning to
-                  develop creative real world solutions.
+                  Leverage mathematical theory and logical reasoning to develop creative solutions.
                 </p>
               </div>
             </div>
@@ -94,8 +90,7 @@
               <!-- COLUMN 1 - BIG MESSAGE ABOUT THE COMPANY-->
               <div class="col-lg-4 col-md-4 column zerif-rtl-big-title">
                 <div class="big-intro" data-scrollreveal="enter left after 0s over 1s">
-                  MetalCow Robotics is a hands-on robotics team for local
-                  high school teens.
+                  MetalCow Robotics is a hands-on team that builds from scratch.
                 </div>
               </div>
               <div class="col-lg-4 col-md-4 column zerif_about_us_center text_and_skills"
@@ -105,13 +100,13 @@
                   "http://web.extension.illinois.edu/state/youth/index.php">4-H</a>
                   SPIN club that participates in <a href=
                   "http://www.firstinspires.org/">FIRST Robotics</a>
-                  competitions. But, it is much more than robotics; it is a
+                  competition. But, it is much more than robotics; it is a
                   small business where members learn digital media,
                   advertising, web design, public speaking, business skills,
                   and leadership.<br>
                   <br>
                   The team is made up of students ages 13 to 18 from the
-                  McLean county area. We manage the business of the team and
+                  McLean County area. We manage the business of the team and
                   create robots from the ground up. Our members come from all
                   walks of life which provides a great opportunity to learn
                   how to work together on a common goal.<br>
@@ -177,124 +172,98 @@
             </div><!-- / END 3 COLUMNS OF ABOUT US-->
             <!-- CLIENTS -->
           </div><!-- / END CONTAINER -->
+          <div class="clear"></div>
+          <div class="container">
+
+          </div>
         </section><!-- END ABOUT US SECTION -->
 
 
 
 
+<?php /*
+        <section class="our-robots" id="our-robots" style="background-color:white;">
+          <div class="row">
 
-        <section class="latest-news" id="latestnews">
-      		<div class="container">
-      			<div class="section-header">
-      				<h2 class="dark-text">Our Robots</h2>
-      				<div class="dark-text section-legend">
-                Each year MetalCow team members design, prototype, and build a
-                working 120lb aluminum chassis robot to compete in <a href=
-                "http://www.firstinspires.org/robotics/frc">FIRST Robotics
-                Competition</a>. The challenge for each year is unique, and
-                therefore the robot for each year is unique.
-      				</div>
-      			</div>
-      			<div class="clear"></div>
-      			<div class="carousel slide" data-ride="carousel" id="carousel-homepage-latestnews">
-      				<div class="carousel-inner" role="listbox">
-      					<div class="item active" role="option"> <!--Start of the first group of robots-->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 column" data-scrollreveal="enter left after 0s over 1s">
 
-                   <!--Gertrude, 2017-->
-                   <div class="col-sm-3 latestnews-box">
-                     <div class="latestnews-img">
-       								<a class="latestnews-img-a" href="robots" title="Gertrude">
-                         <img alt="" class="profile-pic" src="/img/gertrude_frontpage_1.jpg"></a>
-       							</div>
-       							<div class="latesnews-content">
-       								<h3 class="latestnews-title">
-                         <a href="robots" title="Gertrude, 2017">
-                           Gertrude, 2017</a>
-                       </h3>
-       								<p>Some stuff about Gertrude and ???<em>Steamworks</em>, 2017<br>
-                       <a href="robots">…learn more</a></p>
-       							</div>
-      						</div>
+                <!--======== CAROUSEL ======-->
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
 
-                   <!--Flank, 2016-->
-                   <div class="col-sm-3 latestnews-box">
-      							<div class="latestnews-img">
-      								<a class="latestnews-img-a" href="robots" title="Flank">
-                        <img alt="" class="profile-pic" src="/img/flank_frontpage_1.jpg"></a>
-      							</div>
-      							<div class="latesnews-content">
-      								<h3 class="latestnews-title">
-                        <a href="robots" title="Flank, 2016">
-                          Flank, 2016</a>
-                      </h3>
-      								<p>Some stuff about Flank and ???<em>Stronghold</em>, 2016<br>
-                      <a href="robots">…learn more</a></p>
-      							</div>
-      						</div>
+                      <div class="item active">
+                        <img src="/img/gertrude_frontpage_1.jpg" alt="Gertrude" style="width:100%;">
+                        <div class="carousel-caption">
+                          <p>Gertrude, 2017</p>
+                        </div>
+                      </div>
 
-                   <!--Ellie, 2015-->
-                   <div class="col-sm-3 latestnews-box">
-                     <div class="latestnews-img">
-       								<a class="latestnews-img-a" href="robots" title="Ellie">
-                         <img alt="" class="profile-pic" src="/img/ellie_frontpage_1.jpg"></a>
-       							</div>
-       							<div class="latesnews-content">
-       								<h3 class="latestnews-title">
-                         <a href="robots" title="Ellie, 2015">
-                           Ellie, 2015</a>
-                       </h3>
-       								<p>Some stuff about Ellie and ???<em>game</em>, 2015<br>
-                       <a href="robots">…learn more</a></p>
-       							</div>
-      						</div>
+                      <div class="item active">
+                        <img src="/img/flank_frontpage_1.jpg" alt="Flank" style="width:100%;">
+                        <div class="carousel-caption">
+                          <p>Flank, 2016</p>
+                        </div>
+                      </div>
 
-                   <!--Daisy, 2013-->
-                   <div class="col-sm-3 latestnews-box">
-                     <div class="latestnews-img">
-       								<a class="latestnews-img-a" href="robots" title="Daisy">
-                         <img alt="" class="profile-pic" src="/img/daisy_frontpage_1.jpg"></a>
-       							</div>
-       							<div class="latesnews-content">
-       								<h3 class="latestnews-title">
-                         <a href="robots" title="Daisy, 2014">
-                           Daisy, 2014</a>
-                       </h3>
-       								<p>Some stuff about Daisy and ???<em>game</em>, 2014<br>
-                       <a href="robots">…learn more</a></p>
-       							</div>
-      						</div>
+                      <div class="item active">
+                        <img src="/img/ellie_frontpage_1.jpg" alt="Ellie" style="width:100%;">
+                        <div class="carousel-caption">
+                          <p>Ellie, 2015</p>
+                        </div>
+                      </div>
 
-      						<div class="clear"></div>
-      					</div>
-                <div class="item"><!--Start of the second group of robots-->
+                      <div class="item active">
+                        <img src="/img/daisy_frontpage_1.jpg" alt="Daisy" style="width:100%;">
+                        <div class="carousel-caption">
+                          <p>Daisy, 2014</p>
+                        </div>
+                      </div>
 
-                   <!--Chippy, 2012-->
-                   <div class="col-sm-3 latestnews-box">
-                     <div class="latestnews-img">
-       								<a class="latestnews-img-a" href="robots" title="Chippy">
-                         <img alt="" class="profile-pic" src="/img/chippy_frontpage_1.jpg"></a>
-       							</div>
-       							<div class="latesnews-content">
-       								<h3 class="latestnews-title">
-                         <a href="robots" title="Chippy, 2013">
-                           Chippy, 2013</a>
-                       </h3>
-       								<p>Some stuff about Chippy and ???<em>game</em>, 2013<br>
-                       <a href="robots">…learn more</a></p>
-       							</div>
-      						</div>
+                      <div class="item active">
+                        <img src="/img/chippy_frontpage_1.jpg" alt="Chippy" style="width:100%;">
+                        <div class="carousel-caption">
+                          <p>Chippy, 2013</p>
+                        </div>
+                      </div>
 
-      					</div>
+                    </div>
 
-              </div><a class="left carousel-control" data-slide="prev" href="#carousel-homepage-latestnews" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span> <span class="sr-only">Previous</span></a> <a class="right carousel-control" data-slide="next" href="#carousel-homepage-latestnews" role="button"><span aria-hidden="true" class="glyphicon glyphicon-chevron-right"></span> <span class="sr-only">Next</span></a>
-      			</div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <!--^^^^^^^ CAROUSEL ^^^^^^-->
+              </div>
+
+              <div class="col-lg-6 col-md-6 column zerif-rtl-big-title" data-scrollreveal="enter right after 0s over 1s">
+                  <h4>Each year MetalCow team members design, prototype, and build a
+                  working 120lb aluminum chassis robot to compete in <a style="font-weight:bold;" href=
+                  "http://www.firstinspires.org/robotics/frc">FIRST Robotics
+                  Competition</a>. The challenge for each year is unique, and
+                  therefore the robot for each year is unique.</h4>
+              </div>
+            </div>
+
       		</div>
       	</section>
+*/?>
 
 
 
 
-<?php /*
         <section class="contact-us" id="contact">
           <div class="container">
             <!-- SECTION HEADER -->
@@ -303,17 +272,16 @@
             </div><!-- / END SECTION HEADER -->
             <!-- CONTACT FORM-->
             <div class="row">
-              <form role="form" method="post" action="" onsubmit=
-              "this.scrollPosition.value=(document.body.scrollTop || document.documentElement.scrollTop)"
-              class="contact-form">
+              <form role="form" method="post" action="mailProcessor-contact.php"
+                  onsubmit="this.scrollPosition.value=(document.body.scrollTop || document.documentElement.scrollTop)" class="contact-form">
+
                 <input type="hidden" name="scrollPosition"> <input type="hidden" name="submitted" id="submitted" value="true">
                 <div class="col-lg-4 col-sm-4 zerif-rtl-contact-name" data-scrollreveal="enter left after 0s over 1s">
                   <label for="myname" class="screen-reader-text">Your Name</label>
                   <input required="required" type="text" name="myname" id="myname" placeholder="Your Name"
                   class="form-control input-box" value="">
                 </div>
-                <div class="col-lg-4 col-sm-4 zerif-rtl-contact-email"
-                data-scrollreveal="enter left after 0s over 1s">
+                <div class="col-lg-4 col-sm-4 zerif-rtl-contact-email" data-scrollreveal="enter left after 0s over 1s">
                   <label for="myemail" class="screen-reader-text">Your
                   Email</label> <input required="required" type="email" name=
                   "myemail" id="myemail" placeholder="Your Email" class=
@@ -336,7 +304,6 @@
             </div><!-- / END CONTACT FORM-->
           </div><!-- / END CONTAINER -->
         </section><!-- / END CONTACT US SECTION-->
-*/ ?>
 
 
       </div><!-- .site-content -->

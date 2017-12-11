@@ -27,6 +27,8 @@
                 We are non-profit organization promoting science and technology education in our community.
                 As a community-based team our students come from public, private, and
                 homeschool students.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/28CTq6Mhg_Y?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 </p>
                 As a student on MetalCow Robotics you will work side-by-side with industry professionals
                 from local companies and businesses to design and build a 120 lb. robot in six weeks.

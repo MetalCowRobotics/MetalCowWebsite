@@ -15,20 +15,24 @@ body.custom-background {
   background-repeat: no-repeat;
   background-position: top left;
   background-attachment: scroll;
-  }
+}
 
 .header-content-wrap {
   padding-top: 210px !important;
 }
 
-.latestnews-img img.profile-pic {
+#our-robots.our-robots{
+  background-color: #FFFFFF;
+}
+
+/*.latestnews-img img.profile-pic {
 	border-radius: 50%;
 	width: 174px;
 	height: 174px;
 	margin: auto;
 	overflow: hidden;
 	margin-bottom: 25px;
-}
+}*/
 
 .tab-content{
   text-align:left;

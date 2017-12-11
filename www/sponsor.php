@@ -39,7 +39,9 @@
                   <div class="col-md-6">
                     <img class="img-responsive" src="/img/sponsor2.jpeg" alt="">
                   </div>
-                  <div class="col-md-12"></div>
+                  <div class="col-md-12">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/mtE6Va6oOhU?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                </div>
                 </div>
                 <p>
                   <!-- /.row -->
