@@ -34,6 +34,6 @@ echo $response->body();
 //Need to look up how to write this professionally.  What did JawBone do with your ticket?
 
 //go back to the homepage
-header('Location: nextpage.php');
+//header('Location: index.php');
 
 ?>
