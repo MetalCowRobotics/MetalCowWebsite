@@ -2,9 +2,9 @@
 require '../vendor/autoload.php';
 
 //sanitize all inputs for security
-$name = filter_var($_POST["myname"], FILTER_SANITIZE_ENCODED);
-$message = filter_var($_POST["mymessage"], FILTER_SANITIZE_ENCODED);
-$subject = filter_var($_POST["mysubject"], FILTER_SANITIZE_ENCODED);
+$name = filter_var($_POST["myname"], FILTER_SANITIZE_SPECIAL_CHARS);
+$message = filter_var($_POST["mymessage"], FILTER_SANITIZE_SPECIAL_CHARS);
+$subject = filter_var($_POST["mysubject"], FILTER_SANITIZE_SPECIAL_CHARS);
 
 if(filter_var($_POST["myemail"], FILTER_VALIDATE_EMAIL) ){
   $email = $_POST["myemail"];
@@ -34,6 +34,6 @@ echo $response->body();
 //Need to look up how to write this professionally.  What did JawBone do with your ticket?
 
 //go back to the homepage
-//header('Location: index.php');
+header('Location: index.php');
 
 ?>
