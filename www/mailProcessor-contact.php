@@ -1,5 +1,5 @@
 <?php
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 
 //sanitize all inputs for security
 $name = filter_var($_POST["myname"], FILTER_SANITIZE_ENCODED);
