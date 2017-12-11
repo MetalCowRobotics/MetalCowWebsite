@@ -33,7 +33,7 @@
                   <p style="text-align: center;">
                     <span style="font-weight: bold;">Do you want to
                     help build a competition robot?</span><br>
-                    <a href="/" class="btn btn-primary custom-button green-btn">Become a mentor</a>
+                    <a href="/index.php#contactForm" class="btn btn-primary custom-button green-btn">Become a mentor</a>
                   </p>
                 </div>
                 <div class="col-md-6">
@@ -109,7 +109,7 @@
                   <p style="text-align: center;">
                     <span style="font-weight: bold;">Do you want to
                     help build a competition robot?</span><br>
-                    <a href="/" class="btn btn-primary custom-button green-btn">Become a mentor</a>
+                    <a href="/index.php#contactForm" class="btn btn-primary custom-button green-btn">Become a mentor</a>
                   </p>
                 </div>
               </div>
