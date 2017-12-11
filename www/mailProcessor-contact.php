@@ -9,7 +9,7 @@ $subject = filter_var($_POST["mysubject"], FILTER_SANITIZE_ENCODED);
 if(filter_var($_POST["myemail"], FILTER_VALIDATE_EMAIL) ){
   $email = $_POST["myemail"];
 }else{
-  exit(1);
+  header('Location: index.php');
 }
 
 /////
@@ -32,5 +32,8 @@ echo $response->body();
 
 //ToDo: Add a response ticket email to the customer to confirm we have recieved their question.
 //Need to look up how to write this professionally.  What did JawBone do with your ticket?
+
+//go back to the homepage
+header('Location: nextpage.php');
 
 ?>
