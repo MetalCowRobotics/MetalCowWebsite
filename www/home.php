@@ -299,7 +299,7 @@
                   <textarea name="mymessage" id="mymessage" class="form-control textarea-box" placeholder="Your Message"></textarea>
                 </div><button class="btn btn-primary custom-button red-btn"
                 type="submit" data-scrollreveal="enter left after 0s over 1s">Send Message</button>
-                <div class="g-recaptcha zerif-g-recaptcha" data-sitekey="6LfY9CETAAAAANB5UnFGL_zbFoVUjLThokmR5ycm"></div>
+                <!--<div class="g-recaptcha zerif-g-recaptcha" data-sitekey="6LdddzwUAAAAACnykuNnl3YAC6EM3uPbDoOmFMHO"></div>-->
               </form>
             </div><!-- / END CONTACT FORM-->
           </div><!-- / END CONTAINER -->

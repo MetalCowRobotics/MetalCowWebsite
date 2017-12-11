@@ -81,6 +81,8 @@
   include_once($page.".php");
 ?>
 
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <?php
 include_once("footer.php");
 include_once("footerJavaScripts.php");
