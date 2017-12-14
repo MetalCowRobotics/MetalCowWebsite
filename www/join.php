@@ -27,14 +27,19 @@
                 We are non-profit organization promoting science and technology education in our community.
                 As a community-based team our students come from public, private, and
                 homeschool students.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/28CTq6Mhg_Y?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-</p>
+              </p>
                 As a student on MetalCow Robotics you will work side-by-side with industry professionals
                 from local companies and businesses to design and build a 120 lb. robot in six weeks.
                 We have activities and meet year round. However, the build-season starts in early January
                 and goes to about mid-March.
               </p>
+              <div class="col-md-12">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/mtE6Va6oOhU?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/28CTq6Mhg_Y?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
+
               <p>
                 Some student expectations include:
               </p>
@@ -77,50 +82,64 @@
 
                   <div id="myTabContent" class="tab-content">
                       <div class="tab-pane fade active in" id="service-one">
-                          <h4>Build and Manufacturing</h4>
-                          <p> Design and build the chassis and mechanisms of our 120lb robot! Learn and leverage engineering knowledge
-                          and metalwork skills to craft the bones of our team's competition robot.</p>
-                          <a href="/stuApply/?role=build" class="btn btn-primary custom-button green-btn">Join the team</a>
+                        <img src="/img/join-weld.png" style="float:right; padding-left:3em;">
+                        <p style="font-size:x-large;font-weight:bold;padding-top:1em;">
+                          Build and Manufacturing</p>
+                        <p>The build team performs the manufacturing of the robot. They create and
+                          maintain the physical aspect of the robots. Students learn proper build safety,
+                          how to turn CAD plans into a physical object, electrical, and basic metal work
+                          skills. Students with an interest in mechanical design, electrical work or a
+                          passion for hands on creation would thrive in the immersive build experience
+                          offered by MetalCow Robotics and the FIRST program.</p>
+                        <a href="/stuApply/?role=build" style="float:right;"
+                        class="btn btn-primary custom-button green-btn">Join the build team</a>
                       </div>
                       <div class="tab-pane fade" id="service-two">
-                          <h4>Computer Aided Design (CAD)</h4>
-                          <p>Leads design of robot’s structure, creates CAD models of design, aids in design process,
-assesses feasibility of design choices, simulates motion and analyzes weight of robot.
-<ul>
-<li>Give vital input into robot design</li>
-<li>Model robot using CAD design software</li>
-<li>Help construct prototypes</li>
-<li>Create CAD design notebook and produce presentation, hard-copies for competitions</li>
-</ul>
-</p>
-                          <a href="/stuApply/?role=cad" class="btn btn-primary custom-button green-btn">Join the team</a>
+                        <img src="/img/join-cad.png" style="float:right; padding-left:3em;">
+                        <p style="font-size:x-large;font-weight:bold;padding-top:1em;">
+                          Computer Aided Design (CAD)</p>
+                          <p>CAD or computer aided design utilizes state of the art programs like Solidworks to
+                            create a detailed robot schematic that incorporates the elements the whole team
+                            believes beneficial to the current game. They design a robot that will achieve
+                            the goals as seamlessly as possible and creates plans to give to the build team to
+                            turn into the actual robot. Students interested in architecture, design or
+                            mechanical design would benefit from learning these skills in a fun and safe
+                            environment.</p>
+                          <a href="/stuApply/?role=cad"  style="float:right;"
+                          class="btn btn-primary custom-button green-btn">Join the CAD team</a>
                       </div>
                       <div class="tab-pane fade" id="service-three">
-                          <h4>Control Systems and Code</h4>
-                          <p>Ensure all programmers learn how to program and participate in programming the robot
-<ul>
-  <li>Oversee Robot Programming, especially at competitions</li>
-  <li>Designs and builds robot electronics, wiring, circuitry, and sensor systems. Develops
-and updates robot computer programs (C++, LabVIEW, Java, et al).</li>
-  <li>Wire and program practice robot</li>
-  <li>Maintain communication and/or assign subteam members to maintain communication</li>
-with CAD and Build subteams, both verbally and electronically.
-</ul>
-</p>
-                          <a href="/stuApply/?role=code" class="btn btn-primary custom-button green-btn">Join the team</a>
+                        <img src="/img/join-code.png" style="float:right; padding-left:3em;">
+                        <p style="font-size:x-large;font-weight:bold;padding-top:1em;">
+                          Controls Systems and Code</p>
+                          <p>Learn and use the Java programming language as well as electrical wiring and
+                            soldering to create the control system that brings life to the robot. Working as a
+                            team students will program the robot to run autonomously as well as create a system
+                            to be operated by a driver. They also have opportunities to create apps or build
+                            web sites. Students who enjoy coding, web design, have an interest in becoming a
+                            computer programer, or electical engineer would enjoy this aspect of the robotics
+                            team.</p>
+                          <a href="/stuApply/?role=code"  style="float:right;"
+                          class="btn btn-primary custom-button green-btn">Join the controls team</a>
                       </div>
                       <div class="tab-pane fade" id="service-four">
-                          <h4>Business Adminstration</h4>
-                          <p>Work to raise awareness about the team and attract new sponsors by creating donor
-materials and identifying and securing donors. They work with the team on writing grant applications and identifying
-potential donors. Help monitor and update the budget and manage the team finances by generate a comprehensive business plan.
-If you see yourself as an entrepreneur and hope to run a business of your own someday this is the role for you.</p>
-                          <a href="/stuApply/?role=business" class="btn btn-primary custom-button green-btn">Join the team</a>
+                        <div style="display:table-row;">
+                          <div style="display:table-cell">
+                            <img src="/img/join-biz.png" style="float:right; padding-left:3em;">
+                            <p style="font-size:x-large;font-weight:bold;padding-top:1em;">
+                              Buisness Administration</p>
+                          <p>The business team works together to preform the administrative tasks and create
+                            the written, visual materials and branding for the team. They a responsible for
+                            award submissions, the website, managing the online presence for the team and
+                            create the printed material the team utilizes. Students with an interest in graphic
+                             design, marketing, business or finance would benefit from the hands on skills and
+                             experiences this section of the team provides. If you see yourself as an
+                             entrepreneur and hope to run a business of your own someday this is the role
+                             for you.</p>
+                          <a href="/stuApply/?role=business" style="float:right;"
+                          class="btn btn-primary custom-button green-btn">Join the business team</a>
                       </div>
               </div>
-
-
-
 
             </div><!-- .entry-content -->
           </article><!-- #post-## -->
