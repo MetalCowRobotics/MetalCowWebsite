@@ -1,7 +1,5 @@
 
 <div id="content" class="site-content">
-
-
   <div class="container">
     <div class="content-left-wrap col-md-12">
       <div id="primary" class="content-area">
@@ -15,56 +13,39 @@
                     Join the MetalCow Robotics team!
                   </h2>
                   <div class="section-legend">
-                    We need a quote or something for here....!!!
+                    PART SPORT, PART TECHNOLOGY... 100% AWESOME!
                   </div>
                 </div>
+                <div class="col-md-12">
 
+                </div>
+                <div class="col-md-6">
+                  As a student on MetalCow Robotics you will work side-by-side with industry professionals
+                  from local companies and businesses to design and build a 120 lb. robot in six weeks.
+                  We have activities and meet year round. However, the build-season starts in early January
+                  and goes to about mid-March.
 
+                  Our mission is to promote science, technology, and engineering in the community while helping
+                   students gain real world skills they can use for the rest of their lives.
+                  MetalCow Robotics is a 4-H SPIN club that participates in FIRST Robotics Competitions.
+                  But, it is much more than robotics; it is a small business where members learn digital media,
+                  advertising, web design, public speaking, business skills, and leadership.
 
+                  The team is made up of students ages 13 to 18 from the McLean county area.  We manage the business
+                  of the team and create robots from the ground up.  Our members
+                  come from all walks of life which provides a  great opportunity to learn how to work together
+                  on a common goal.  We have adult mentors from the  community who volunteer their time and
+                  professional expertise to help develop the next generation of leaders.
+                </div>
 
-              <p>
-                MetalCow Robotics Team 4213 is 4-H Club which competes in FIRST Robotics Competition.
-                We are non-profit organization promoting science and technology education in our community.
-                As a community-based team our students come from public, private, and
-                homeschool students.
-              </p>
-                As a student on MetalCow Robotics you will work side-by-side with industry professionals
-                from local companies and businesses to design and build a 120 lb. robot in six weeks.
-                We have activities and meet year round. However, the build-season starts in early January
-                and goes to about mid-March.
-              </p>
-              <div class="col-md-12">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/mtE6Va6oOhU?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            <div class="col-md-6">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/28CTq6Mhg_Y?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
             </div>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/28CTq6Mhg_Y?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
 
 
-              <p>
-                Some student expectations include:
-              </p>
-              <ul>
-                <li>Must be high school age
-                </li>
-                <li>Adhere to the MetalCow Robotics 4213 Handbook
-                </li>
-                <li>Put in a minimum of 12 hours per week during the build
-                  and competition seasons
-                </li>
-                <li>Set up an account on team forum and check it daily
-                </li>
-                <li>Attend outreach events
-                </li>
-                <li>Be involved in fundraising events
-                </li>
-                <li>Register with FIRST online
-                </li>
-                <li>Attend mandatory meetings
-                </li>
-              </ul>
-              <p>Members on the team take on several roles...
+              <div class="col-md-12">
               <hr>
-
                   <ul id="myTab" class="nav nav-tabs nav-justified" style="margin:0;">
                       <li class="active">
                         <a href="#service-one" data-toggle="tab"><i class="fa fa-wrench"></i> Build</a>
@@ -91,8 +72,10 @@
                           skills. Students with an interest in mechanical design, electrical work or a
                           passion for hands on creation would thrive in the immersive build experience
                           offered by MetalCow Robotics and the FIRST program.</p>
-                        <a href="/stuApply/?role=build" style="float:right;"
+                        <a href="https://goo.gl/92S3ZP" style="float:right;"
                         class="btn btn-primary custom-button green-btn">Join the build team</a>
+                        <!--<a href="/stuApply/?role=build" style="float:right;"
+                        class="btn btn-primary custom-button green-btn">Join the build team</a>-->
                       </div>
                       <div class="tab-pane fade" id="service-two">
                         <img src="/img/join-cad.png" style="float:right; padding-left:3em;">
@@ -105,8 +88,10 @@
                             turn into the actual robot. Students interested in architecture, design or
                             mechanical design would benefit from learning these skills in a fun and safe
                             environment.</p>
-                          <a href="/stuApply/?role=cad"  style="float:right;"
-                          class="btn btn-primary custom-button green-btn">Join the CAD team</a>
+                            <a href="https://goo.gl/92S3ZP" style="float:right;"
+                            class="btn btn-primary custom-button green-btn">Join the CAD team</a>
+                            <!--<a href="/stuApply/?role=cad"  style="float:right;"
+                            class="btn btn-primary custom-button green-btn">Join the CAD team</a>-->
                       </div>
                       <div class="tab-pane fade" id="service-three">
                         <img src="/img/join-code.png" style="float:right; padding-left:3em;">
@@ -119,8 +104,10 @@
                             web sites. Students who enjoy coding, web design, have an interest in becoming a
                             computer programer, or electical engineer would enjoy this aspect of the robotics
                             team.</p>
-                          <a href="/stuApply/?role=code"  style="float:right;"
-                          class="btn btn-primary custom-button green-btn">Join the controls team</a>
+                            <a href="https://goo.gl/92S3ZP" style="float:right;"
+                            class="btn btn-primary custom-button green-btn">Join the controls team</a>
+                            <!--<a href="/stuApply/?role=code" style="float:right;"
+                            class="btn btn-primary custom-button green-btn">Join the controls team</a>-->
                       </div>
                       <div class="tab-pane fade" id="service-four">
                         <div style="display:table-row;">
@@ -136,32 +123,18 @@
                              experiences this section of the team provides. If you see yourself as an
                              entrepreneur and hope to run a business of your own someday this is the role
                              for you.</p>
-                          <a href="/stuApply/?role=business" style="float:right;"
-                          class="btn btn-primary custom-button green-btn">Join the business team</a>
+                             <a href="https://goo.gl/92S3ZP" style="float:right;"
+                             class="btn btn-primary custom-button green-btn">Join the business team</a>
+                            <!--<a href="/stuApply/?role=business" style="float:right;"
+                            class="btn btn-primary custom-button green-btn">Join the business team</a>-->
                       </div>
               </div>
+            </div>
 
             </div><!-- .entry-content -->
           </article><!-- #post-## -->
         </main><!-- #main -->
       </div><!-- #primary -->
     </div><!-- .content-left-wrap -->
-
-
-
-
-
-
-
   </div><!-- .container -->
-
-
-
-
-          <!-- Service Tabs -->
-          <div class="container">
-
-          </div>
-
-
 </div><!-- .site-content -->

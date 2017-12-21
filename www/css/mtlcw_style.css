@@ -3,13 +3,13 @@
         display: inline-block;
         vertical-align: top;
         width: 100%;
-    }
-    .footer-widget img{
+}
+.footer-widget img{
       /*width:75px;*/
         padding-top:25px;
         padding-left:10px;
         padding-right:10px;
-    }
+}
 body.custom-background {
   background-image: url('../img/background-20160504-a.jpg');
   background-repeat: no-repeat;
@@ -25,6 +25,26 @@ body.custom-background {
   background-color: #FFFFFF;
 }
 
+.tab-content{
+  text-align: left;
+}
+.tab-pane{
+  padding-top: 1em;
+}
+
+.sponsor-heading-silver{
+  background-color: #272727;
+  color:DarkGrey;
+}
+.sponsor-heading-gold{
+  background-color: #272727;
+  color:Gold;
+}
+.sponsor-heading-platinum{
+  background-color: #272727;
+  color:SkyBlue;
+}
+
 /*.latestnews-img img.profile-pic {
 	border-radius: 50%;
 	width: 174px;
@@ -33,10 +53,3 @@ body.custom-background {
 	overflow: hidden;
 	margin-bottom: 25px;
 }*/
-
-.tab-content{
-  text-align: left;
-}
-.tab-pane{
-  padding-top: 1em;
-}

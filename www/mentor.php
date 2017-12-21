@@ -3,8 +3,7 @@
     <div class="content-left-wrap col-md-12">
       <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
-          <article id="post-83" class=
-          "post-83 page type-page status-publish hentry">
+          <article id="post-83" class="post-83 page type-page status-publish hentry">
             <div class="entry-content">
               <div class="row">
                 <div class="section-header">
@@ -45,7 +44,7 @@
                 <div class="col-lg-12">
                   <h3 style="text-align: center;">
                     Mentoring opportunities are currently available for
-                    those with knowledge in the following areas:
+                    those with knowledge in the following areas:<br><br>
                   </h3>
                   <div class="col-md-3 col-sm-6">
                     <ul>
