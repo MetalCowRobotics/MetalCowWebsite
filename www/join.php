@@ -16,33 +16,30 @@
                     PART SPORT, PART TECHNOLOGY... 100% AWESOME!
                   </div>
                 </div>
-                <div class="col-md-12">
 
-                </div>
                 <div class="col-md-6">
-                  As a student on MetalCow Robotics you will work side-by-side with industry professionals
+                  <p>As a student on MetalCow Robotics you will work side-by-side with industry professionals
                   from local companies and businesses to design and build a 120 lb. robot in six weeks.
                   We have activities and meet year round. However, the build-season starts in early January
-                  and goes to about mid-March.
+                  and goes to about mid-March.</p>
 
-                  Our mission is to promote science, technology, and engineering in the community while helping
-                   students gain real world skills they can use for the rest of their lives.
+                  <p>Our mission is to promote science, technology, and engineering in the community while helping
+                    students gain real world skills they can use for the rest of their lives.
                   MetalCow Robotics is a 4-H SPIN club that participates in FIRST Robotics Competitions.
                   But, it is much more than robotics; it is a small business where members learn digital media,
-                  advertising, web design, public speaking, business skills, and leadership.
+                  advertising, web design, public speaking, business skills, and leadership.<p>
 
-                  The team is made up of students ages 13 to 18 from the McLean county area.  We manage the business
-                  of the team and create robots from the ground up.  Our members
-                  come from all walks of life which provides a  great opportunity to learn how to work together
-                  on a common goal.  We have adult mentors from the  community who volunteer their time and
-                  professional expertise to help develop the next generation of leaders.
+                  <p>The team is made up of students ages 13 to 18 from the McLean county area.  We manage the business
+                  of the team and create robots from the ground up.  Our members come from all walks of life which
+                  provides a  great opportunity to learn how to work together on a common goal.  We have adult mentors
+                  from the  community who volunteer their time and professional expertise to help develop the next
+                  generation of leaders.</p>
                 </div>
 
-            <div class="col-md-6">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/28CTq6Mhg_Y?rel=0&amp;showinfo=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-            </div>
-
-
+                <div class="col-md-6">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/28CTq6Mhg_Y?rel=0&amp;showinfo=0"
+                  frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                </div>
 
               <div class="col-md-12">
               <hr>
@@ -77,6 +74,7 @@
                         <!--<a href="/stuApply/?role=build" style="float:right;"
                         class="btn btn-primary custom-button green-btn">Join the build team</a>-->
                       </div>
+
                       <div class="tab-pane fade" id="service-two">
                         <img src="/img/join-cad.png" style="float:right; padding-left:3em;">
                         <p style="font-size:x-large;font-weight:bold;padding-top:1em;">
@@ -93,6 +91,7 @@
                             <!--<a href="/stuApply/?role=cad"  style="float:right;"
                             class="btn btn-primary custom-button green-btn">Join the CAD team</a>-->
                       </div>
+
                       <div class="tab-pane fade" id="service-three">
                         <img src="/img/join-code.png" style="float:right; padding-left:3em;">
                         <p style="font-size:x-large;font-weight:bold;padding-top:1em;">
@@ -109,6 +108,7 @@
                             <!--<a href="/stuApply/?role=code" style="float:right;"
                             class="btn btn-primary custom-button green-btn">Join the controls team</a>-->
                       </div>
+
                       <div class="tab-pane fade" id="service-four">
                         <div style="display:table-row;">
                           <div style="display:table-cell">
@@ -128,6 +128,7 @@
                             <!--<a href="/stuApply/?role=business" style="float:right;"
                             class="btn btn-primary custom-button green-btn">Join the business team</a>-->
                       </div>
+
               </div>
             </div>
 
