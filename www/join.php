@@ -60,25 +60,32 @@
 
                   <div id="myTabContent" class="tab-content">
                       <div class="tab-pane fade active in" id="service-one">
-                        <img src="/img/join-weld.png" style="float:right; padding-left:3em;">
-                        <p style="font-size:x-large;font-weight:bold;padding-top:1em;">
-                          Build and Manufacturing</p>
-                        <p>The build team performs the manufacturing of the robot. They create and
-                          maintain the physical aspect of the robots. Students learn proper build safety,
-                          how to turn CAD plans into a physical object, electrical, and basic metal work
-                          skills. Students with an interest in mechanical design, electrical work or a
-                          passion for hands on creation would thrive in the immersive build experience
-                          offered by MetalCow Robotics and the FIRST program.</p>
-                        <a href="https://goo.gl/92S3ZP" style="float:right;"
-                        class="btn btn-primary custom-button green-btn">Join the build team</a>
-                        <!--<a href="/stuApply/?role=build" style="float:right;"
-                        class="btn btn-primary custom-button green-btn">Join the build team</a>-->
+                        <div class="col-md-6">
+                          <div class="col-md-12">
+                          <h2>Build and Manufacturing</h2>
+                          <p>The build team performs the manufacturing of the robot. They create and
+                            maintain the physical aspect of the robots. Students learn proper build safety,
+                            how to turn CAD plans into a physical object, electrical, and basic metal work
+                            skills. Students with an interest in mechanical design, electrical work or a
+                            passion for hands on creation would thrive in the immersive build experience
+                            offered by MetalCow Robotics and the FIRST program.</p>
+                          </div>
+                          <div class="col-md-12">
+                            <a href="https://goo.gl/92S3ZP" style="float:right;"
+                            class="btn btn-primary custom-button green-btn">Join the build team</a>
+                            <!--<a href="/stuApply/?role=build" style="float:right;"
+                            class="btn btn-primary custom-button green-btn">Join the build team</a>-->
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <img src="/img/join-weld.png" style="float:right;">
+                        </div>
                       </div>
 
                       <div class="tab-pane fade" id="service-two">
-                        <img src="/img/join-cad.png" style="float:right; padding-left:3em;">
-                        <p style="font-size:x-large;font-weight:bold;padding-top:1em;">
-                          Computer Aided Design (CAD)</p>
+                        <div class="col-md-6">
+                          <div class="col-md-12">
+                          <h2>Computer Aided Design (CAD)</h2>
                           <p>CAD or computer aided design utilizes state of the art programs like Solidworks to
                             create a detailed robot schematic that incorporates the elements the whole team
                             believes beneficial to the current game. They design a robot that will achieve
@@ -86,16 +93,23 @@
                             turn into the actual robot. Students interested in architecture, design or
                             mechanical design would benefit from learning these skills in a fun and safe
                             environment.</p>
+                          </div>
+                          <div class="col-md-12">
                             <a href="https://goo.gl/92S3ZP" style="float:right;"
                             class="btn btn-primary custom-button green-btn">Join the CAD team</a>
                             <!--<a href="/stuApply/?role=cad"  style="float:right;"
                             class="btn btn-primary custom-button green-btn">Join the CAD team</a>-->
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <img src="/img/join-cad.png" style="float:right;">
+                        </div>
                       </div>
 
                       <div class="tab-pane fade" id="service-three">
-                        <img src="/img/join-code.png" style="float:right; padding-left:3em;">
-                        <p style="font-size:x-large;font-weight:bold;padding-top:1em;">
-                          Controls Systems and Code</p>
+                        <div class="col-md-6">
+                          <div class="col-md-12">
+                          <h2>Controls Systems and Code</h2>
                           <p>Learn and use the Java programming language as well as electrical wiring and
                             soldering to create the control system that brings life to the robot. Working as a
                             team students will program the robot to run autonomously as well as create a system
@@ -103,18 +117,23 @@
                             web sites. Students who enjoy coding, web design, have an interest in becoming a
                             computer programer, or electical engineer would enjoy this aspect of the robotics
                             team.</p>
+                          </div>
+                          <div class="col-md-12">
                             <a href="https://goo.gl/92S3ZP" style="float:right;"
                             class="btn btn-primary custom-button green-btn">Join the controls team</a>
                             <!--<a href="/stuApply/?role=code" style="float:right;"
                             class="btn btn-primary custom-button green-btn">Join the controls team</a>-->
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <img src="/img/join-code.png" style="float:right;">
+                        </div>
                       </div>
 
                       <div class="tab-pane fade" id="service-four">
-                        <div style="display:table-row;">
-                          <div style="display:table-cell">
-                            <img src="/img/join-biz.png" style="float:right; padding-left:3em;">
-                            <p style="font-size:x-large;font-weight:bold;padding-top:1em;">
-                              Buisness Administration</p>
+                        <div class="col-md-6">
+                          <div class="col-md-12">
+                          <h2>Buisness Administration</h2>
                           <p>The business team works together to preform the administrative tasks and create
                             the written, visual materials and branding for the team. They a responsible for
                             award submissions, the website, managing the online presence for the team and
@@ -123,10 +142,17 @@
                              experiences this section of the team provides. If you see yourself as an
                              entrepreneur and hope to run a business of your own someday this is the role
                              for you.</p>
-                             <a href="https://goo.gl/92S3ZP" style="float:right;"
-                             class="btn btn-primary custom-button green-btn">Join the business team</a>
-                            <!--<a href="/stuApply/?role=business" style="float:right;"
-                            class="btn btn-primary custom-button green-btn">Join the business team</a>-->
+                          </div>
+                          <div class="col-md-12">
+                            <a href="https://goo.gl/92S3ZP" style="float:right;"
+                            class="btn btn-primary custom-button green-btn">Join the business team</a>
+                           <!--<a href="/stuApply/?role=business" style="float:right;"
+                           class="btn btn-primary custom-button green-btn">Join the business team</a>-->
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <img src="/img/join-biz.png" style="float:right;">
+                        </div>
                       </div>
 
               </div>
