@@ -35,32 +35,32 @@ $message .= "MetalCow,
 The following application has been submitted via the website.
 Please review and follow up with the student.\n\n";
 
-$message .= "**** Student Contact Info ****\n";
-$message .= "\tName: ".$studentFname." ".$studentLname."\n";
-$message .= "\tEmail: ".$studentEmail."\n";
-$message .= "\tPhone: ".$studentPhone."\n\n";
+$message .= "++++ Student Contact Info ++++\n";
+$message .= "Name: ".$studentFname." ".$studentLname."\n";
+$message .= "Email: ".$studentEmail."\n";
+$message .= "Phone: ".$studentPhone."\n\n";
 
-$message .= "**** Parent Contact Info ****\n";
-$message .= "\tName: ".$parentFname." ".$parentLname."\n";
-$message .= "\tEmail: ".$parentEmail."\n";
-$message .= "\tPhone: ".$parentPhone."\n\n";
+$message .= "++++ Parent Contact Info ++++\n";
+$message .= "Name: ".$parentFname." ".$parentLname."\n";
+$message .= "Email: ".$parentEmail."\n";
+$message .= "Phone: ".$parentPhone."\n\n";
 
-$message .= "**** Student Academic Background ****\n";
-$message .= "\tSchool: ".$studentSchool."\n";
-$message .= "\tGrade: ".$studentGrade."\n";
-$message .= "\tRobotics Experience: ".$studentRobotics."\n";
-$message .= "\tOther Commitments: ".$studentCommitments."\n\n";
+$message .= "++++ Student Academic Background ++++\n";
+$message .= "School: ".$studentSchool."\n";
+$message .= "Grade: ".$studentGrade."\n";
+$message .= "Robotics Experience: ".$studentRobotics."\n";
+$message .= "Other Commitments: ".$studentCommitments."\n\n";
 
-$message .= "**** Student Team Related Info ****\n";
-$message .= "\tHow did student find out about MetalCow Robotics: ".$studentReference."\n\n";
-$message .= "\tStudent is applying for a role on: ".$studentRole."\n";
-$message .= "\tStudent's Skills: ".$studentSkills."\n";
-$message .= "\tStudent's Expectations: ".$studentExpectations."\n";
-$message .= "\tSomething the student finds interesting about themself: ".$studentInteresting."\n\n";
+$message .= "++++ Student Team Related Info ++++\n";
+$message .= "How did student find out about MetalCow Robotics: ".$studentReference."\n";
+$message .= "Student is applying for a role on: ".$studentRole."\n";
+$message .= "Student's Skills: ".$studentSkills."\n";
+$message .= "Student's Expectations: ".$studentExpectations."\n";
+$message .= "Something the student finds interesting about themself: ".$studentInteresting."\n\n";
 
 
 //make a connection to google to get gmail to send email for us
-$name = "MetalCow Robotics";
+/*$name = "MetalCow Robotics";
 $email = "info@metalcowrobotics.com";
 $from = new SendGrid\Email($name, $email);
 $subject = "MetalCow Application: ".$studentFname." ".$studentLname;
@@ -75,8 +75,8 @@ $response = $sg->client->mail()->send()->post($mail);
 echo $response->statusCode();
 echo $response->headers();
 echo $response->body();
-
-
+*/
+echo $message;
 
 
 
