@@ -93,5 +93,5 @@ Build up an email to the student
 //Build a second message to the student and parent
 
 //go back to the homepage
-//header('Location: index.php');
+header('Location: index.php');
 ?>
