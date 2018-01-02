@@ -28,19 +28,19 @@
                   <div class="col-md-12"><h3>Student Information</h3></div>
                   <div class="form-group col-md-12">
                     <label class="control-label" for="studentFname">First Name:</label>
-                    <input type="text" class="form-control" id="studentFname" placeholder="First Name">
+                    <input type="text" class="form-control" id="studentFname" placeholder="First Name" required>
                   </div>
                   <div class="form-group col-md-12">
                     <label class="control-label" for="studentLname">Last Name:</label>
-                    <input type="text" class="form-control" id="studentLname" placeholder="Last Name">
+                    <input type="text" class="form-control" id="studentLname" placeholder="Last Name" required>
                   </div>
                   <div class="form-group col-md-12">
                     <label class="control-label" for="studentEmail">Student Email:</label>
-                    <input type="email" class="form-control" id="studentEmail" placeholder="Email">
+                    <input type="email" class="form-control" id="studentEmail" placeholder="Email" required>
                   </div>
                   <div class="form-group col-md-12">
                     <label class="control-label" for="studentPhone">Student Phone:</label>
-                    <input type="tel" class="input-medium bfh-phone" id="studentPhone" data-country="US" placeholder="(123) 123-1234">
+                    <input type="tel" class="input-medium bfh-phone" id="studentPhone" data-country="US" placeholder="(123) 123-1234" required>
                   </div>
                 </div>
 
@@ -49,23 +49,19 @@
                   <div class="col-md-12"><h3>Parent Information</h3></div>
                   <div class="form-group col-md-12">
                     <label class="control-label" for="parentFname">First Name:</label>
-                    <input type="text" class="form-control" id="parentFname" placeholder="First Name">
+                    <input type="text" class="form-control" id="parentFname" placeholder="First Name" required>
                   </div>
                   <div class="form-group col-md-12">
                     <label class="control-label" for="parentLname">Last Name:</label>
-                    <input type="text" class="form-control" id="parentLname" placeholder="Last Name">
+                    <input type="text" class="form-control" id="parentLname" placeholder="Last Name" required>
                   </div>
                   <div class="form-group col-md-12">
                     <label class="control-label" for="parentEmail">Parent Email:</label>
-                      <input type="email" class="form-control" id="parentEmail" placeholder="Email">
+                      <input type="email" class="form-control" id="parentEmail" placeholder="Email" required>
                   </div>
                   <div class="form-group col-md-12">
                     <label class="control-label" for="parentPhone">Parent Phone:</label>
-                    <input type="tel" class="input-medium bfh-phone" id="parentPhone" data-country="US" placeholder="(123) 123-1234">
-                  </div>
-                  <div class="form-group col-md-12">
-                    <label class="control-label" for="parentAdditional">Other:</label>
-                      <textarea type="comment" class="form-control" id="parentAdditional" rows="3" placeholder="Additional parental contact information."></textarea>
+                    <input type="tel" class="input-medium bfh-phone" id="parentPhone" data-country="US" placeholder="(123) 123-1234" required>
                   </div>
                 </div>
 
@@ -76,11 +72,11 @@
                 <div class="col-md-12"><h3>Student Academics</h3></div>
                 <div class="form-group col-md-12">
                   <label class="control-label" for="studentSchool">Student School:</label>
-                  <input type="text" class="form-control" id="studentSchool" placeholder="School Name" style="width:15em;">
+                  <input type="text" class="form-control" id="studentSchool" placeholder="School Name" style="width:15em;" required>
                 </div>
                 <div class="form-group col-md-12">
                   <label class="control-label" for="studentGrade">Highest grade completed by student:</label>
-                  <select name="studentGrade" class="form-control" id="studentGrade" style="width:10em;">
+                  <select name="studentGrade" class="form-control" id="studentGrade" style="width:10em;" required>
                     <option value="7">7th</option>
                     <option value="8">8th</option>
                     <option value="9">Freshman</option>
@@ -92,12 +88,12 @@
                 <div class="form-group col-md-12">
                   <label class="control-label" for="studentRobotics">Robotics Experience:</label>
                     <textarea type="comment" class="form-control" id="studentRobotics" rows="5"
-                    placeholder="If you have done robotics before, please describe your previous robotics experience including format (Junior FLL, FLL, FTC, FRC, Vex, other) and duration (semester, week, day-camp)."></textarea>
+                    placeholder="If you have done robotics before, please describe your previous robotics experience including format (Junior FLL, FLL, FTC, FRC, Vex, other) and duration (semester, week, day-camp)." required></textarea>
                 </div>
                 <div class="form-group col-md-12">
                   <label class="control-label" for="studentCommitments">Other Commitments:</label>
                     <textarea type="comment" class="form-control" id="studentCommitments" rows="5"
-                    placeholder="Please describe your other activities and commitments (sports, work, groups) and activities during the Fall, Summer and Spring.  Spring (January through April) is competition season, and the team is active as a 4H Club year-round."></textarea>
+                    placeholder="Please describe your other activities and commitments (sports, work, groups) and activities during the Fall, Summer and Spring.  Spring (January through April) is competition season, and the team is active as a 4H Club year-round." required></textarea>
                 </div>
               </div>
 
@@ -105,7 +101,7 @@
                 <div class="col-md-12"><h3>Student Questions</h3></div>
                 <div class="form-group col-md-12">
                   <label class="control-label" for="studentReference">How did you hear about MetalCow Robotics?</label>
-                  <textarea type="text" class="form-control" id="studentReference" rows="3"></textarea>
+                  <textarea type="text" class="form-control" id="studentReference" rows="3" required></textarea>
                 </div>
                 <div class="form-group col-md-12">
                   <label class="control-label" for="studentRole">What primary role are you applying for?</label>
@@ -131,15 +127,15 @@
 
                 <div class="form-group col-md-12">
                   <label class="control-label" for="studentSkills">What skills and talents will you bring to the team?</label>
-                  <textarea type="comment" class="form-control" id="studentSkills" rows="5"></textarea>
+                  <textarea type="comment" class="form-control" id="studentSkills" rows="5" required></textarea>
                 </div>
                 <div class="form-group col-md-12">
                   <label class="control-label" for="studentExpectations">What do you expect to gain from the experience of being on MetalCow?</label>
-                  <textarea type="comment" class="form-control" id="studentExpectations" rows="5"></textarea>
+                  <textarea type="comment" class="form-control" id="studentExpectations" rows="5" required></textarea>
                 </div>
                 <div class="form-group col-md-12">
                   <label class="control-label" for="studentInteresting">Tell us something fun or interesting about yourself!</label>
-                  <textarea type="comment" class="form-control" id="studentInteresting" rows="5"></textarea>
+                  <textarea type="comment" class="form-control" id="studentInteresting" rows="5" required></textarea>
                 </div>
                 <div class="col-md-12">
                   <button type="submit" class="btn btn-default green-btn">Submit Application</button>
