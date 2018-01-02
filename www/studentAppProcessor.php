@@ -1,5 +1,7 @@
 
 <?php
+require '../vendor/autoload.php';
+
 //validate form data
 $studentFname = filter_var($_POST["studentFname"], FILTER_SANITIZE_SPECIAL_CHARS);
 $studentLname = filter_var($_POST["studentLname"], FILTER_SANITIZE_SPECIAL_CHARS);
