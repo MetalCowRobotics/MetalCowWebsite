@@ -105,7 +105,7 @@
                 <div class="col-md-12"><h3>Student Questions</h3></div>
                 <div class="form-group col-md-12">
                   <label class="control-label" for="studentReference">How did you hear about MetalCow Robotics?</label>
-                  <textarea type="text" class="form-control" id="studentreference" rows="3"></textarea>
+                  <textarea type="text" class="form-control" id="studentReference" rows="3"></textarea>
                 </div>
                 <div class="form-group col-md-12">
                   <label class="control-label" for="studentRole">What primary role are you applying for?</label>
