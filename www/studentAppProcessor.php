@@ -12,7 +12,6 @@ $parentFname = filter_var($_POST["parentFname"], FILTER_SANITIZE_SPECIAL_CHARS);
 $parentLname = filter_var($_POST["parentLname"], FILTER_SANITIZE_SPECIAL_CHARS);
 $parentEmail = filter_var($_POST["parentEmail"], FILTER_SANITIZE_SPECIAL_CHARS);
 $parentPhone = filter_var($_POST["parentPhone"], FILTER_SANITIZE_SPECIAL_CHARS);
-$parentAdditional = filter_var($_POST["parentAdditional"], FILTER_SANITIZE_SPECIAL_CHARS);
 
 $studentSchool = filter_var($_POST["studentSchool"], FILTER_SANITIZE_SPECIAL_CHARS);
 $studentGrade = filter_var($_POST["studentGrade"], FILTER_SANITIZE_SPECIAL_CHARS);
@@ -44,8 +43,7 @@ $message .= "\tPhone: ".$studentPhone."\n\n";
 $message .= "**** Parent Contact Info ****\n";
 $message .= "\tName: ".$parentFname." ".$parentLname."\n";
 $message .= "\tEmail: ".$parentEmail."\n";
-$message .= "\tPhone: ".$parentPhone."\n";
-$message .= "\tOther: ".$parentAdditional."\n\n";
+$message .= "\tPhone: ".$parentPhone."\n\n";
 
 $message .= "**** Student Academic Background ****\n";
 $message .= "\tSchool: ".$studentSchool."\n";
