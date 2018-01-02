@@ -71,10 +71,10 @@
                             offered by MetalCow Robotics and the FIRST program.</p>
                           </div>
                           <div class="col-md-12">
-                            <a href="https://goo.gl/92S3ZP" style="float:right;"
-                            class="btn btn-primary custom-button green-btn">Join the build team</a>
-                            <!--<a href="/stuApply/?role=build" style="float:right;"
+                            <!--<a href="https://goo.gl/92S3ZP" style="float:right;"
                             class="btn btn-primary custom-button green-btn">Join the build team</a>-->
+                            <a href="/stuApply/?role=build" style="float:right;"
+                            class="btn btn-primary custom-button green-btn">Join the build team</a>
                           </div>
                         </div>
                         <div class="col-md-6">
@@ -95,10 +95,10 @@
                             environment.</p>
                           </div>
                           <div class="col-md-12">
-                            <a href="https://goo.gl/92S3ZP" style="float:right;"
-                            class="btn btn-primary custom-button green-btn">Join the CAD team</a>
-                            <!--<a href="/stuApply/?role=cad"  style="float:right;"
+                            <!--<a href="https://goo.gl/92S3ZP" style="float:right;"
                             class="btn btn-primary custom-button green-btn">Join the CAD team</a>-->
+                            <a href="/stuApply/?role=cad"  style="float:right;"
+                            class="btn btn-primary custom-button green-btn">Join the CAD team</a>
                           </div>
                         </div>
                         <div class="col-md-6">
@@ -119,10 +119,10 @@
                             team.</p>
                           </div>
                           <div class="col-md-12">
-                            <a href="https://goo.gl/92S3ZP" style="float:right;"
-                            class="btn btn-primary custom-button green-btn">Join the controls team</a>
-                            <!--<a href="/stuApply/?role=code" style="float:right;"
+                            <!--<a href="https://goo.gl/92S3ZP" style="float:right;"
                             class="btn btn-primary custom-button green-btn">Join the controls team</a>-->
+                            <a href="/stuApply/?role=code" style="float:right;"
+                            class="btn btn-primary custom-button green-btn">Join the controls team</a>
                           </div>
                         </div>
                         <div class="col-md-6">
@@ -144,10 +144,10 @@
                              for you.</p>
                           </div>
                           <div class="col-md-12">
-                            <a href="https://goo.gl/92S3ZP" style="float:right;"
-                            class="btn btn-primary custom-button green-btn">Join the business team</a>
-                           <!--<a href="/stuApply/?role=business" style="float:right;"
-                           class="btn btn-primary custom-button green-btn">Join the business team</a>-->
+                            <!--<a href="https://goo.gl/92S3ZP" style="float:right;"
+                            class="btn btn-primary custom-button green-btn">Join the business team</a>-->
+                           <a href="/stuApply/?role=business" style="float:right;"
+                           class="btn btn-primary custom-button green-btn">Join the business team</a>
                           </div>
                         </div>
                         <div class="col-md-6">

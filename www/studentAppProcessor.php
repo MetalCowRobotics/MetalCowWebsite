@@ -60,7 +60,7 @@ $message .= "Something the student finds interesting about themself: ".$studentI
 
 
 //make a connection to google to get gmail to send email for us
-/*$name = "MetalCow Robotics";
+$name = "MetalCow Robotics";
 $email = "info@metalcowrobotics.com";
 $from = new SendGrid\Email($name, $email);
 $subject = "MetalCow Application: ".$studentFname." ".$studentLname;
@@ -75,8 +75,6 @@ $response = $sg->client->mail()->send()->post($mail);
 echo $response->statusCode();
 echo $response->headers();
 echo $response->body();
-*/
-echo $message;
 
 
 
