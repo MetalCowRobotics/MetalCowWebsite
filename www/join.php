@@ -18,6 +18,32 @@
                 </div>
 
                 <div class="col-md-6">
+                  <p>MetalCow Robotics, FIRST team 4213 was founded in December of 2011. From
+                    the start the team was partnered with 4-H in McLean County Illinois. The
+                    team started as a team of 11 that met in a barn on a local pumpkin farm.
+                    The first year culminated in the Rookie Inspiration Award. Over the
+                    next 3 years the team grew to a team of 17 wining a award for animation
+                    and earning top seeded alliance spots and a visit to the FIRST World
+                    championship. 2016 and 2017 brought a new year round location in a local
+                    shopping center and an increase to 24 members in 2016. The 2018 FIRST
+                    season brought yet another move to Riven Automotive.
+                  <p>FIRST is a world wide organization who’s mission is to promote
+                    science, technology, engineering, and leadership. FIRST offers programs for
+                    students elementary age to high school. MetalCow Robotics is part of the
+                    capstone program called FRC or First Robotics Competition. This program
+                    involves creating 120 pound robot in a six week time constraint that is
+                     used to compete in 3 day long competitions with other teams from around
+                     the world. Each challenge is complex allowing for teams to create a unique
+                     robot to accomplish the challenge. </p>
+                  <p>4-H is a national organization for students 8 to 18 promoting
+                    personal development, skill building, teamwork and leadership. McLean
+                    County where MetalCow Robotics is based has the largest 4-H fair.
+                    Students are encouraged in skills such as cooking, art, sewing,
+                    agriculture, and technology.</p>
+
+
+
+
                   <p>As a student on MetalCow Robotics you will work side-by-side with industry professionals
                   from local companies and businesses to design and build a 120 lb. robot in six weeks.
                   We have activities and meet year round. However, the build-season starts in early January
