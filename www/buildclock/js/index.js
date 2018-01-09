@@ -13,7 +13,7 @@ startBuild = new Date(2018,0,6,9,0,0);
 
 //STOP BUILD: Tuesday, February 20, 2018 - 11:59pm ET
 //This means Feb 20, 2018 @ 10:59 CST
-stopBuild = new Date(2018,1,20,10,59,0); //Stop Build 2018
+stopBuild = new Date(2018,1,20,22,59,0); //Stop Build 2018
 
 function getDiff(ddate){
 	dateNow = new Date();	//grab current date
