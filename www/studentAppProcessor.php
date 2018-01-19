@@ -29,34 +29,45 @@ $studentInteresting = filter_var($_POST["studentInteresting"], FILTER_SANITIZE_S
 
 
 //build the application message from the webform contents
-$message = "";
-$message .= "MetalCow,
+$message = "MetalCow,
 
 The following application has been submitted via the website.
-Please review and follow up with the student.\n\n";
+Please review and follow up with the student.
 
-$message .= "++++ Student Contact Info ++++\n";
-$message .= "Name: ".$studentFname." ".$studentLname."\n";
-$message .= "Email: ".$studentEmail."\n";
-$message .= "Phone: ".$studentPhone."\n\n";
+++++ Student Contact Info ++++
+Name: ".$studentFname." ".$studentLname."
+Email: ".$studentEmail."
+Phone: ".$studentPhone."
 
-$message .= "++++ Parent Contact Info ++++\n";
-$message .= "Name: ".$parentFname." ".$parentLname."\n";
-$message .= "Email: ".$parentEmail."\n";
-$message .= "Phone: ".$parentPhone."\n\n";
+++++ Parent Contact Info ++++
+Name: ".$parentFname." ".$parentLname."
+Email: ".$parentEmail."
+Phone: ".$parentPhone."
 
-$message .= "++++ Student Academic Background ++++\n";
-$message .= "School: ".$studentSchool."\n";
-$message .= "Grade: ".$studentGrade."\n";
-$message .= "Robotics Experience: ".$studentRobotics."\n";
-$message .= "Other Commitments: ".$studentCommitments."\n\n";
+++++ Student Academics ++++
+School: ".$studentSchool."
+Grade: ".$studentGrade."
+How did student find out about MetalCow Robotics: ".$studentReference."
+Robotics Experience:
+".$studentRobotics."
 
-$message .= "++++ Student Team Related Info ++++\n";
-$message .= "How did student find out about MetalCow Robotics: ".$studentReference."\n";
-$message .= "Student is applying for a role on: ".$studentRole."\n";
-$message .= "Student's Skills: ".$studentSkills."\n";
-$message .= "Student's Expectations: ".$studentExpectations."\n";
-$message .= "Something the student finds interesting about themself: ".$studentInteresting."\n\n";
+Other Commitments:
+".$studentCommitments."
+
+++++ Student Team Related Info ++++
+
+Student is applying for a role on: ".$studentRole."
+Student's Skills:
+".$studentSkills."
+
+Student's Expectations:
+".$studentExpectations."
+
+Something the student finds interesting about themself:
+".$studentInteresting."
+
+
+----- End of Application: www.MetalCowRobotics.com --------";
 
 
 //make a connection to google to get gmail to send email for us
@@ -91,5 +102,6 @@ Build up an email to the student
 //Build a second message to the student and parent
 
 //go back to the homepage
-header('Location: index.php');
+//header('Location: index.php');
+echo $message;
 ?>
