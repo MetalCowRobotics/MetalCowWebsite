@@ -59,7 +59,6 @@ Please review and follow up with the student.<br>
 ".$studentCommitments."<br>
 
 <h3>++++ Student Team Related Info ++++</h3>
-<br>
 <b>Student is applying for a role on:</b> ".$studentRole."<br>
 <b>Student's Skills:</b><br>
 ".$studentSkills."<br>
@@ -90,7 +89,7 @@ $response = $sg->client->mail()->send()->post($mail);
 echo $response->statusCode();
 echo $response->headers();
 echo $response->body();
-
+echo $message;
 
 
 /**************************
@@ -106,6 +105,6 @@ Build up an email to the student
 //Build a second message to the student and parent
 
 //go back to the homepage
-//header('Location: index.php');
-echo $message;
+header('Location: index.php');
+
 ?>
