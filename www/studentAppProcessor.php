@@ -32,45 +32,45 @@ $studentInteresting = filter_var($_POST["studentInteresting"], FILTER_SANITIZE_S
 date_default_timezone_set('America/Chicago');
 
 //build the application message from the webform contents
-$message = "MetalCow,
+$message = "MetalCow,<br>
+<br>
+The following application has been submitted via the website.<br>
+Please review and follow up with the student.<br>
 
-The following application has been submitted via the website on ".date('m/d/Y h:i:s a', time())."
-Please review and follow up with the student.
+<h3>++++ Student Contact Info ++++</h3>
+<b>Name: ".$studentFname." ".$studentLname."<br>
+<b>Email: ".$studentEmail."<br>
+<b>Phone: ".$studentPhone."<br>
 
-++++ Student Contact Info ++++
-Name: ".$studentFname." ".$studentLname."
-Email: ".$studentEmail."
-Phone: ".$studentPhone."
+<h3>++++ Parent Contact Info ++++</h3>
+<b>Name: ".$parentFname." ".$parentLname."<br>
+<b>Email: ".$parentEmail."<br>
+<b>Phone: ".$parentPhone."<br>
 
-++++ Parent Contact Info ++++
-Name: ".$parentFname." ".$parentLname."
-Email: ".$parentEmail."
-Phone: ".$parentPhone."
+<h3>++++ Student Academics ++++</h3>
+<b>School: ".$studentSchool."<br>
+<b>Grade: ".$studentGrade."<br>
+<b>How did student find out about MetalCow Robotics: ".$studentReference."<br>
+<b>Robotics Experience:<br>
+".$studentRobotics."<br>
+<br>
+<b>Other Commitments:<br>
+".$studentCommitments."<br>
 
-++++ Student Academics ++++
-School: ".$studentSchool."
-Grade: ".$studentGrade."
-How did student find out about MetalCow Robotics: ".$studentReference."
-Robotics Experience:
-".$studentRobotics."
-
-Other Commitments:
-".$studentCommitments."
-
-++++ Student Team Related Info ++++
-
-Student is applying for a role on: ".$studentRole."
-Student's Skills:
-".$studentSkills."
-
-Student's Expectations:
-".$studentExpectations."
-
-Something the student finds interesting about themself:
-".$studentInteresting."
-
-
------ End of Application: www.MetalCowRobotics.com --------";
+<h3>++++ Student Team Related Info ++++</h3>
+<br>
+<b>Student is applying for a role on: ".$studentRole."<br>
+<b>Student's Skills:<br>
+".$studentSkills."<br>
+<br>
+<b>Student's Expectations:<br>
+".$studentExpectations."<br>
+<br>
+<b>Something the student finds interesting about themself:<br>
+".$studentInteresting."<br>
+<br>
+<br>
+<i>----- www.MetalCowRobotics.com/join | ".date('m/d/Y h:i:s a', time())." --------</i>";
 
 
 //make a connection to google to get gmail to send email for us
