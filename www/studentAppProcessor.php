@@ -38,35 +38,36 @@ The following application has been submitted via the website.<br>
 Please review and follow up with the student.<br>
 
 <h3>++++ Student Contact Info ++++</h3>
-<b>Name: ".$studentFname." ".$studentLname."<br>
-<b>Email: ".$studentEmail."<br>
-<b>Phone: ".$studentPhone."<br>
+<b>Name:</b> ".$studentFname." ".$studentLname."<br>
+<b>Email:</b> ".$studentEmail."<br>
+<b>Phone:</b> ".$studentPhone."<br>
 
 <h3>++++ Parent Contact Info ++++</h3>
-<b>Name: ".$parentFname." ".$parentLname."<br>
-<b>Email: ".$parentEmail."<br>
-<b>Phone: ".$parentPhone."<br>
+<b>Name:</b> ".$parentFname." ".$parentLname."<br>
+<b>Email:</b> ".$parentEmail."<br>
+<b>Phone:</b> ".$parentPhone."<br>
 
 <h3>++++ Student Academics ++++</h3>
-<b>School: ".$studentSchool."<br>
-<b>Grade: ".$studentGrade."<br>
-<b>How did student find out about MetalCow Robotics: ".$studentReference."<br>
-<b>Robotics Experience:<br>
+<b>School:</b> ".$studentSchool."<br>
+<b>Grade:</b> ".$studentGrade."<br>
+<b>How did student find out about MetalCow Robotics:</b> ".$studentReference."<br>
+<br>
+<b>Robotics Experience:</b><br>
 ".$studentRobotics."<br>
 <br>
-<b>Other Commitments:<br>
+<b>Other Commitments:</b><br>
 ".$studentCommitments."<br>
 
 <h3>++++ Student Team Related Info ++++</h3>
 <br>
-<b>Student is applying for a role on: ".$studentRole."<br>
-<b>Student's Skills:<br>
+<b>Student is applying for a role on:</b> ".$studentRole."<br>
+<b>Student's Skills:</b><br>
 ".$studentSkills."<br>
 <br>
-<b>Student's Expectations:<br>
+<b>Student's Expectations:</b><br>
 ".$studentExpectations."<br>
 <br>
-<b>Something the student finds interesting about themself:<br>
+<b>Something the student finds interesting about themself:</b><br>
 ".$studentInteresting."<br>
 <br>
 <br>
