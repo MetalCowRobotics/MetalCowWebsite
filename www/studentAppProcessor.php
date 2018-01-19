@@ -28,10 +28,13 @@ $studentInteresting = filter_var($_POST["studentInteresting"], FILTER_SANITIZE_S
 //pass back things entered.
 
 
+//setup timezone
+date_default_timezone_set('America/Chicago');
+
 //build the application message from the webform contents
 $message = "MetalCow,
 
-The following application has been submitted via the website.
+The following application has been submitted via the website on ".date('m/d/Y h:i:s a', time())."
 Please review and follow up with the student.
 
 ++++ Student Contact Info ++++
