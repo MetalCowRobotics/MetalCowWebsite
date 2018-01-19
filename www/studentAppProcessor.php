@@ -37,17 +37,17 @@ $message = "MetalCow,<br>
 The following application has been submitted via the website.<br>
 Please review and follow up with the student.<br>
 
-<h3>++++ Student Contact Info ++++</h3>
+<h3>Student Contact Info</h3>
 <b>Name:</b> ".$studentFname." ".$studentLname."<br>
 <b>Email:</b> ".$studentEmail."<br>
 <b>Phone:</b> ".$studentPhone."<br>
 
-<h3>++++ Parent Contact Info ++++</h3>
+<h3>Parent Contact Info</h3>
 <b>Name:</b> ".$parentFname." ".$parentLname."<br>
 <b>Email:</b> ".$parentEmail."<br>
 <b>Phone:</b> ".$parentPhone."<br>
 
-<h3>++++ Student Academics ++++</h3>
+<h3>Student Academics</h3>
 <b>School:</b> ".$studentSchool."<br>
 <b>Grade:</b> ".$studentGrade."<br>
 <b>How did student find out about MetalCow Robotics:</b> ".$studentReference."<br>
@@ -58,7 +58,7 @@ Please review and follow up with the student.<br>
 <b>Other Commitments:</b><br>
 ".$studentCommitments."<br>
 
-<h3>++++ Student Team Related Info ++++</h3>
+<h3>Student Team Related Info</h3>
 <b>Student is applying for a role on:</b> ".$studentRole."<br>
 <b>Student's Skills:</b><br>
 ".$studentSkills."<br>
@@ -70,7 +70,7 @@ Please review and follow up with the student.<br>
 ".$studentInteresting."<br>
 <br>
 <br>
-<i>----- www.MetalCowRobotics.com/join | ".date('m/d/Y h:i:s a', time())." --------</i>";
+<i>www.MetalCowRobotics.com/join | ".date('m/d/Y h:i:s a', time())."</i>";
 
 
 //make a connection to google to get gmail to send email for us
