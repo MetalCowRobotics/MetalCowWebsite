@@ -76,7 +76,7 @@ $email = "info@metalcowrobotics.com";
 $from = new SendGrid\Email($name, $email);
 $subject = "MetalCow Application: ".$studentFname." ".$studentLname;
 $to = new SendGrid\Email("MetalCow Robotics", "info@metalcowrobotics.com");
-$content = new SendGrid\Content("text/plain", $message);
+$content = new SendGrid\Content("text/html", $message);
 $mail = new SendGrid\Mail($from, $subject, $to, $content);
 
 //Send email to info@metalcowrobotics.com with the application
