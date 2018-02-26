@@ -7,3 +7,5 @@
     ga('create', 'UA-41013796-1', 'auto');
     ga('send', 'pageview');
 </script>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>

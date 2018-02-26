@@ -1,22 +1,27 @@
 <?php
   #keeps users from requesting any file they want
-  $safe_pages = array("home", "join", "mentor", "robots", "sponsor", "sponsoring_details");
+  $safe_pages = array("home", "join", "mentor", "robots", "sponsor", "sponsoring_details","stuApply");
 
   #remove the directory path we don't want
   $request  = $_SERVER['REQUEST_URI'];
-
-  #split the path by '/'
-  $params = explode("/", $request);
+  $params = explode("/", $request); //get the page only
 
   #handle the page filtering for safe pages
   if(empty($params)){
     $page="home";
-  }elseif(!in_array($params[1], $safe_pages)){
-    //$page="404";
-    $page="home";
   }else{
-    $page = $params[1];
+
+    $pages = explode("?", $params[1]);
+    $page = trim($pages[0], "/");
+
+    if(!in_array($page, $safe_pages)){
+      //$page="404";
+      $page="home";
+    }
+
   }
+
+
 ?>
 
 
@@ -29,7 +34,7 @@
 
 <!--[if lt IE 9]>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-<link rel="stylesheet" href="css/ie.css" type="text/css">
+<link rel="stylesheet" href="/css/ie.css" type="text/css">
 <![endif]-->
 
     <?php include_once("title.php"); ?>
@@ -43,14 +48,19 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
-    <link rel='stylesheet' id='zerif_style-css' href='css/style.css' type='text/css' media='all'>
-    <link rel='stylesheet' id='zerif_responsive_style-css' href='css/responsive.css' type='text/css' media='all'>
-    <link rel='stylesheet' id='mtlcw_stle-css' href='css/mtlcw_style.css' type='text/css' media='all'>
+    <link rel='stylesheet' id='zerif_style-css' href='/css/style.css' type='text/css' media='all'>
+    <link rel='stylesheet' id='zerif_responsive_style-css' href='/css/responsive.css' type='text/css' media='all'>
+    <link rel='stylesheet' id='mtlcw_stle-css' href='/css/mtlcw_style.css' type='text/css' media='all'>
 
-    <link rel="icon" href="img/cropped-logo4-32x32.png" sizes="32x32">
-    <link rel="icon" href="img/cropped-logo4-192x192.png" sizes="192x192">
-    <link rel="apple-touch-icon-precomposed" href="img/cropped-logo4-180x180.png">
-    <meta name="msapplication-TileImage" content="img/cropped-logo4-270x270.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="/js/appForm.js"></script>
+
+    <link rel="icon" href="/img/cropped-logo4-32x32.png" sizes="32x32">
+    <link rel="icon" href="/img/cropped-logo4-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon-precomposed" href="/img/cropped-logo4-180x180.png">
+    <meta name="msapplication-TileImage" content="/img/cropped-logo4-270x270.png">
   </head>
   <body id="page-body"
 
@@ -73,6 +83,8 @@
   include_once($page.".php");
 ?>
 
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <?php
 include_once("footer.php");
 include_once("footerJavaScripts.php");

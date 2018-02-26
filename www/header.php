@@ -9,7 +9,7 @@
                   <span class="icon-bar"></span>
           </button>
           <a href="/" class="navbar-brand">
-            <img src="img/metalcowLogo_wordmark.png" alt="MetalCow Robotics"></a>
+            <img src="/img/metalcowLogo_wordmark.png" alt="MetalCow Robotics"></a>
     </div>
       <nav class="navbar-collapse bs-navbar-collapse collapse" id="site-navigation">
         <a class="screen-reader-text skip-link" href="#content">Skip to content</a>

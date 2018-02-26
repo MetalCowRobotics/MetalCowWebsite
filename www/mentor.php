@@ -3,8 +3,7 @@
     <div class="content-left-wrap col-md-12">
       <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
-          <article id="post-83" class=
-          "post-83 page type-page status-publish hentry">
+          <article id="post-83" class="post-83 page type-page status-publish hentry">
             <div class="entry-content">
               <div class="row">
                 <div class="section-header">
@@ -33,11 +32,11 @@
                   <p style="text-align: center;">
                     <span style="font-weight: bold;">Do you want to
                     help build a competition robot?</span><br>
-                    <a href="/" class="btn btn-primary custom-button green-btn">Become a mentor</a>
+                    <a href="/#contact" class="btn btn-primary custom-button green-btn">Become a mentor</a>
                   </p>
                 </div>
                 <div class="col-md-6">
-                  <img class="img-responsive" src="img/mentors1.png" alt="">
+                  <img class="img-responsive" src="/img/mentors1.png" alt="">
                 </div>
               </div>
               <div class="row">
@@ -45,54 +44,38 @@
                 <div class="col-lg-12">
                   <h3 style="text-align: center;">
                     Mentoring opportunities are currently available for
-                    those with knowledge in the following areas:
+                    those with knowledge in the following areas:<br><br>
                   </h3>
                   <div class="col-md-3 col-sm-6">
                     <ul>
-                      <li>Software Engineering
-                      </li>
-                      <li>Computer Vision
-                      </li>
-                      <li>Web Development
-                      </li>
-                      <li>Database Administration
-                      </li>
+                      <li>Software Engineering</li>
+                      <li>Computer Vision</li>
+                      <li>Web Development</li>
+                      <li>Database Administration</li>
                     </ul>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <ul>
-                      <li>Mechanical Engineering
-                      </li>
-                      <li>CAD (SolidWorks)
-                      </li>
-                      <li>Automotive Repair
-                      </li>
-                      <li>Welding and Metalwork
-                      </li>
+                      <li>Mechanical Engineering</li>
+                      <li>CAD (SolidWorks)</li>
+                      <li>Automotive Repair</li>
+                      <li>Welding and Metalwork</li>
                     </ul>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <ul>
-                      <li>Finances and Accounting
-                      </li>
-                      <li>Grant Writing
-                      </li>
-                      <li>Social Media Management
-                      </li>
-                      <li>Marketing and Fundraising
-                      </li>
+                      <li>Finances and Accounting</li>
+                      <li>Grant Writing</li>
+                      <li>Social Media Management</li>
+                      <li>Marketing and Fundraising</li>
                     </ul>
                   </div>
                   <div class="col-md-3 col-sm-6">
                     <ul>
-                      <li>Photography
-                      </li>
-                      <li>Videography and Film
-                      </li>
-                      <li>Graphic Design
-                      </li>
-                      <li>Animation
-                      </li>
+                      <li>Photography</li>
+                      <li>Videography and Film</li>
+                      <li>Graphic Design</li>
+                      <li>Animation</li>
                     </ul>
                   </div>
                 </div>
@@ -106,9 +89,7 @@
               <div class="row">
                 <hr>
                 <div class="col-md-6">
-                  <img class="img-responsive" src=
-                  "img/mentors2.png"
-                  alt="">
+                  <img class="img-responsive" src="/img/mentors2.png" alt="">
                 </div>
                 <div class="col-md-6">
                   <h2>
@@ -127,7 +108,7 @@
                   <p style="text-align: center;">
                     <span style="font-weight: bold;">Do you want to
                     help build a competition robot?</span><br>
-                    <a href="/" class="btn btn-primary custom-button green-btn">Become a mentor</a>
+                    <a href="/#contact" class="btn btn-primary custom-button green-btn">Become a mentor</a>
                   </p>
                 </div>
               </div>
