@@ -5,7 +5,7 @@ require '../vendor/autoload.php';
 if( !isset($_POST['myname']) ) {
   echo "We apologize, there was an technical error in processing your request please contact us using
   the form at <a href='/#contact'>www.metalcowrobotics.com#contact</a>
-  or directly at info@metalcowrobotics.com.";
+  or directly at teammetalcow@gmail.com";
   exit(0);
 }
 
@@ -19,7 +19,7 @@ if(filter_var($_POST["myemail"], FILTER_VALIDATE_EMAIL) ){
 }else{
   echo "We appologize, there was an technical error in processing your request please contact us using
   the form at <a href='www.metalcowrobotics.com#contact'>www.metalcowrobotics.com#contact</a>
-  or directly at info@metalcowrobotics.com.";
+  or directly at teammetalcow@gmail.com";
   exit(0);
 }
 
@@ -29,7 +29,7 @@ if(filter_var($_POST["myemail"], FILTER_VALIDATE_EMAIL) ){
 
 $from = new SendGrid\Email($name, $email);
 $subject = "Website Inquiry: ".$subject;
-$to = new SendGrid\Email("MetalCow Robotics", "info@metalcowrobotics.com");
+$to = new SendGrid\Email("MetalCow Robotics", "teammetalcow@gmail.com");
 $content = new SendGrid\Content("text/plain", $message);
 $mail = new SendGrid\Mail($from, $subject, $to, $content);
 
