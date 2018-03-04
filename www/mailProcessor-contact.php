@@ -30,7 +30,7 @@ if(filter_var($_POST["myemail"], FILTER_VALIDATE_EMAIL) ){
 $from = new SendGrid\Email($name, $email);
 $subject = "Website Inquiry: ".$subject;
 $to = new SendGrid\Email("MetalCow Robotics", "teammetalcow@gmail.com");
-$content = new SendGrid\Content("text/plain", $message);
+$content = new SendGrid\Content("text/html", $message);
 $mail = new SendGrid\Mail($from, $subject, $to, $content);
 
 $apiKey = getenv('SENDGRID_API_KEY');
