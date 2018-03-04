@@ -6,7 +6,7 @@ require '../vendor/autoload.php';
 if( !isset($_POST['studentEmail']) ) {
   echo "We apologize, there was an technical error in processing your application please email us using
   the form at <a href='/#contact'>www.metalcowrobotics.com#contact</a>
-  or directly at info@metalcowrobotics.com.";
+  or directly at teammetalcow@gmail.com";
   exit(0);
 }
 
@@ -83,14 +83,14 @@ Please review and follow up with the student.<br>
 
 //make a connection to google to get gmail to send email for us
 $name = "MetalCow Robotics";
-$email = "info@metalcowrobotics.com";
+$email = "teammetalcow@gmail.com";
 $from = new SendGrid\Email($name, $email);
 $subject = "MetalCow Application: ".$studentFname." ".$studentLname;
-$to = new SendGrid\Email("MetalCow Robotics", "info@metalcowrobotics.com");
+$to = new SendGrid\Email("MetalCow Robotics", "teammetalcow@gmail.com");
 $content = new SendGrid\Content("text/html", $message);
 $mail = new SendGrid\Mail($from, $subject, $to, $content);
 
-//Send email to info@metalcowrobotics.com with the application
+//Send email to teammetalcow@gmail.com with the application
 $apiKey = getenv('SENDGRID_API_KEY');
 $sg = new \SendGrid($apiKey);
 $response = $sg->client->mail()->send()->post($mail);
