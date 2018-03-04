@@ -1,6 +1,14 @@
 
 <?php
-require '../vendor/autoload.php';
+//require '../vendor/autoload.php';
+
+//if required field is not present, prolly didn't use the HTML form.
+if( !isset($_POST['studentEmail']) ) {
+  echo "We appologize, there was an technical error in processing your application please email us using
+  the form at <a href='www.metalcowrobotics.com#contact'>www.metalcowrobotics.com#contact</a>
+  or directly at info@metalcowrobotics.com.";
+  exit(0);
+}
 
 //validate form data
 $studentFname = filter_var($_POST["studentFname"], FILTER_SANITIZE_SPECIAL_CHARS);
