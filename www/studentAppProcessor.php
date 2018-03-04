@@ -1,6 +1,6 @@
 
 <?php
-//require '../vendor/autoload.php';
+require '../vendor/autoload.php';
 
 //if required field is not present, prolly didn't use the HTML form.
 if( !isset($_POST['studentEmail']) ) {
