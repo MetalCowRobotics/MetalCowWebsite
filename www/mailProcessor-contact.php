@@ -3,7 +3,7 @@ require '../vendor/autoload.php';
 
 //if required field is not present, prolly didn't use the HTML form.
 if( !isset($_POST['myname']) ) {
-  echo "We appologize, there was an technical error in processing your request please contact us using
+  echo "We apologize, there was an technical error in processing your request please contact us using
   the form at <a href='/#contact'>www.metalcowrobotics.com#contact</a>
   or directly at info@metalcowrobotics.com.";
   exit(0);
