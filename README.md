@@ -13,8 +13,17 @@ https://desktop.github.com/
 Go to: https://github.com/MetalCowRobotics/MetalCowWebsite
 then choose "Clone or Download" and pick "Desktop" to clone the MetalCowWebsite with GitHub Desktop.
 
-## Step 5: Setup a ScotchBox Image
+## Step 4: Setup a ScotchBox Image
 https://box.scotch.io/docs/
+
+You'll need to clone scotchbox down and then setup this as the Vagrantfile
+```
+config.vm.box = "scotch/box"
+config.vm.network "private_network", ip: "192.168.33.10"
+config.vm.hostname = "scotchbox"
+config.vm.synced_folder "C:\\Users\\cowUser\\Documents\\GitHub\\MetalCowWebsite\\www", "/var/www/public", create: true
+```
+The following are the key steps....
 
 ### Configure the IP address.
 In your `Vagrantfile` look for the line similar to this and make sure it matches the following
@@ -44,10 +53,10 @@ Go back to the folder where you installed ScotchBox and restart the server with 
 Visit `192.168.33.10` and confirm that the MetalCow Website loads.
 All the pages should work, except submitting the application form, since the mailserver is not connected.
 
-## Step 4: Install Atom.io
+## Step 5: Install Atom.io
 https://atom.io/
 
-## Step 5: Open the MetalCowWebsite project in Atom
+## Step 6: Open the MetalCowWebsite project in Atom
 Open Atom.io and File>Add Project Folder>Choose the MetalCowWebsite folder and click "Open"
 
 Make a branch for your work in GitHub Desktop
