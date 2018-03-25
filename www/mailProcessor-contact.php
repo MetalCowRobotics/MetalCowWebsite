@@ -29,7 +29,7 @@ if(filter_var($_POST["myemail"], FILTER_VALIDATE_EMAIL) ){
 
 $from = new SendGrid\Email($name, $email);
 $subject = "Website Inquiry: ".$subject;
-$to = new SendGrid\Email("MetalCow Robotics", "teammetalcow@gmail.com");
+$to = new SendGrid\Email("MetalCow Robotics", getenv('TEAM_EMAIL'));
 $content = new SendGrid\Content("text/html", $message);
 $mail = new SendGrid\Mail($from, $subject, $to, $content);
 
