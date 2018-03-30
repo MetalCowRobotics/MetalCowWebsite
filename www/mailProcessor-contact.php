@@ -23,6 +23,7 @@ if(filter_var($_POST["myemail"], FILTER_VALIDATE_EMAIL) ){
   exit(0);
 }
 
+
 /////
 //Send the customer's inquiry to MetalCow
 /////
@@ -39,7 +40,7 @@ $response = $sg->client->mail()->send()->post($mail);
 echo $response->statusCode();
 echo $response->headers();
 echo $response->body();
-
+echo $message;
 
 //ToDo: Add a response ticket email to the customer to confirm we have recieved their question.
 //Need to look up how to write this professionally.  What did JawBone do with your ticket?
