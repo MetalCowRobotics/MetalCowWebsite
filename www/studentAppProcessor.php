@@ -94,10 +94,10 @@ $mail = new SendGrid\Mail($from, $subject, $to, $content);
 $apiKey = getenv('SENDGRID_API_KEY');
 $sg = new \SendGrid($apiKey);
 $response = $sg->client->mail()->send()->post($mail);
-echo $response->statusCode();
-echo $response->headers();
-echo $response->body();
-echo $message;
+//echo $response->statusCode();
+//echo $response->headers();
+//echo $response->body();
+//echo $message;
 
 
 /**************************
@@ -113,6 +113,6 @@ Build up an email to the student
 //Build a second message to the student and parent
 
 //go back to the homepage
-header('Location: index.php');
-
+header('Location: https://www.metalcowrobotics.com');
+die();
 ?>
